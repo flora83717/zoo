@@ -5,6 +5,7 @@ import store from "./store";
 import axios from "axios";
 import "./plugins/element.js";
 import "./assets/css/common/reset.css";
+import "@/assets/css/common/theme.scss";
 
 Vue.config.productionTip = false;
 Vue.prototype.$http = axios;
