@@ -1,4 +1,4 @@
-# travel
+# zoo
 
 ## Project setup
 ```
