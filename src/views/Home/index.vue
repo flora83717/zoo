@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="index">
     <Header />
     <Footer />
   </div>
@@ -9,7 +9,7 @@
 import Header from "@/components/common/Header.vue";
 import Footer from "@/components/common/Footer.vue";
 export default {
-  name: "app",
+  name: "Index",
   components: {
     Header,
     Footer,
