@@ -1,9 +1,9 @@
 <template>
   <div id="header">
     <div id="left_header">
-      <div id="logo">
+      <router-link tag="div" to="/" id="logo">
         <img src="../../assets/img/logo.png" alt="" />
-      </div>
+      </router-link>
     </div>
     <div id="right_header">
       <ul>
@@ -31,11 +31,11 @@ export default {
   background-color: #1b3302;
   width: 100vw;
   height: 5rem;
-  span {
-    color: #000;
-    font-size: 2rem;
+  #left_header {
+    #logo {
+      cursor: pointer;
+    }
   }
-
   #right_header {
     ul {
       display: flex;

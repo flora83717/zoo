@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "@/views/Home";
 import Zone from "@/views/Zone";
+import SZone from "@/views/SZone";
 import AnimalData from "@/views/AnimalData";
 import OnlineBuy from "@/views/OnlineBuy";
 
@@ -19,6 +20,10 @@ const routes = [
   {
     path: "/zone",
     component: Zone,
+  },
+  {
+    path: "/szone/:id",
+    component: SZone,
   },
   {
     path: "/animalData",
