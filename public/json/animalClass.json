@@ -1,0 +1,27 @@
+[
+  {
+    "class_id": "C001",
+    "class_name": " 哺乳綱",
+    "class_en_name": "mammals"
+  },
+  {
+    "class_id": "C002",
+    "class_name": " 鳥綱",
+    "class_en_name": "reptiles"
+  },
+  {
+    "class_id": "C003",
+    "class_name": " 爬蟲綱",
+    "class_en_name": "amphibians"
+  },
+  {
+    "class_id": "C004",
+    "class_name": " 兩棲綱",
+    "class_en_name": "birds"
+  },
+  {
+    "class_id": "C005",
+    "class_name": " 硬骨魚綱",
+    "class_en_name": "osteichthyes"
+  }
+ ]

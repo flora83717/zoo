@@ -1,5 +1,6 @@
 [
   {
+    "A_Id": "A0001",
     "A_Name_Ch": "大貓熊",
     "A_Location": "新光特展館(大貓熊館)",
     "A_Name_En": "Giant Panda",
@@ -14,6 +15,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/PandaHouse/Panda_Pic02.jpg"
   },
   {
+    "A_Id": "A0002",
     "A_Name_Ch": "國王企鵝",
     "A_Location": "企鵝館",
     "A_Name_En": "King Penguin",
@@ -28,6 +30,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/PenguinHouse/KingPenguin/KingPenguin_Pic02.jpg"
   },
   {
+    "A_Id": "A0003",
     "A_Name_Ch": "黑腳企鵝",
     "A_Location": "企鵝館",
     "A_Name_En": "Jackass penguin",
@@ -42,6 +45,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/PenguinHouse/JackassPenguin/JackassPenguin_Pic02.jpg"
   },
   {
+    "A_Id": "A0004",
     "A_Name_Ch": "弓角羚羊",
     "A_Location": "沙漠動物區",
     "A_Name_En": "Addax",
@@ -56,6 +60,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/DesertAnimal/Addax/Addax_Pic02.jpg"
   },
   {
+    "A_Id": "A0005",
     "A_Name_Ch": "非洲野驢",
     "A_Location": "沙漠動物區",
     "A_Name_En": "African wild ass",
@@ -70,6 +75,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/DesertAnimal/WildAss/WildAss_Pic02.jpg"
   },
   {
+    "A_Id": "A0006",
     "A_Name_Ch": "單峰駱駝",
     "A_Location": "沙漠動物區",
     "A_Name_En": "Dromedary Camel或One-humped Camel",
@@ -84,6 +90,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/DesertAnimal/Camel-D/Camel-D_Pic02.jpg"
   },
   {
+    "A_Id": "A0007",
     "A_Name_Ch": "雙峰駱駝",
     "A_Location": "沙漠動物區;兒童動物區",
     "A_Name_En": "Bactrian Camel或Two-humped Came",
@@ -98,6 +105,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/DesertAnimal/Camel-B/Camel-B_Pic02.jpg"
   },
   {
+    "A_Id": "A0008",
     "A_Name_Ch": "人猿",
     "A_Location": "熱帶雨林區",
     "A_Name_En": "Orangutan",
@@ -112,6 +120,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/RainForest/Orangutan/Orangutan_Pic02.jpg"
   },
   {
+    "A_Id": "A0009",
     "A_Name_Ch": "大長臂猿",
     "A_Location": "熱帶雨林區",
     "A_Name_En": "Siamang",
@@ -126,6 +135,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/RainForest/Siamang/Siamang_Pic02.jpg"
   },
   {
+    "A_Id": "A0010",
     "A_Name_Ch": "印度大犀鳥",
     "A_Location": "熱帶雨林區",
     "A_Name_En": "Great Indian Horbill",
@@ -140,6 +150,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/RainForest/GreatHorbill/GreatHorbill_Pic02.jpg"
   },
   {
+    "A_Id": "A0011",
     "A_Name_Ch": "亞洲象",
     "A_Location": "熱帶雨林區",
     "A_Name_En": "Asiatic Elephant",
@@ -154,6 +165,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/RainForest/AsianElephant/AsianElephant_Pic02.jpg"
   },
   {
+    "A_Id": "A0012",
     "A_Name_Ch": "孟加拉虎",
     "A_Location": "熱帶雨林區",
     "A_Name_En": "Bengal tiger",
@@ -168,6 +180,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/RainForest/Tiger/Tiger_Pic02.jpg"
   },
   {
+    "A_Id": "A0013",
     "A_Name_Ch": "花豹",
     "A_Location": "熱帶雨林區",
     "A_Name_En": "Leopard",
@@ -182,6 +195,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/RainForest/Leopard/Leopard_Pic02.jpg"
   },
   {
+    "A_Id": "A0014",
     "A_Name_Ch": "馬來熊",
     "A_Location": "熱帶雨林區",
     "A_Name_En": "Malayan Sun Bear",
@@ -196,6 +210,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/RainForest/SunBear/SunBear_Pic02.jpg"
   },
   {
+    "A_Id": "A0015",
     "A_Name_Ch": "馬來貘",
     "A_Location": "熱帶雨林區",
     "A_Name_En": "Tapir",
@@ -210,6 +225,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/RainForest/Tapir/Tapir_Pic02.jpg"
   },
   {
+    "A_Id": "A0016",
     "A_Name_Ch": "黑天鵝",
     "A_Location": "熱帶雨林區",
     "A_Name_En": "Black Swan",
@@ -224,6 +240,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/RainForest/Swan/Swan_Pic02.jpg"
   },
   {
+    "A_Id": "A0017",
     "A_Name_Ch": "白手長臂猿",
     "A_Location": "熱帶雨林區;兒童動物區",
     "A_Name_En": "White-handed Gibbon",
@@ -238,6 +255,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/RainForest/Gibbon/Gibbon_Pic02.jpg"
   },
   {
+    "A_Id": "A0018",
     "A_Name_Ch": "家鴨",
     "A_Location": "兒童動物區",
     "A_Name_En": "Domestic Duck",
@@ -252,6 +270,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/ChildrenArea/Duck/Duck_Pic02.jpg"
   },
   {
+    "A_Id": "A0019",
     "A_Name_Ch": "家雞",
     "A_Location": "兒童動物區",
     "A_Name_En": "Domestic Chicken",
@@ -266,6 +285,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/ChildrenArea/Chicken/Chicken_Pic02.jpg"
   },
   {
+    "A_Id": "A0020",
     "A_Name_Ch": "家鵝",
     "A_Location": "兒童動物區",
     "A_Name_En": "",
@@ -280,8 +300,9 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/ChildrenArea/Goose/Goose_Pic02.jpg"
   },
   {
+    "A_Id": "A0021",
     "A_Name_Ch": "天竺鼠",
-    "A_Location": "",
+    "A_Location": "兒童動物區",
     "A_Name_En": "Guinea Pig",
     "A_Name_Latin": "Cavia porcellus",
     "A_Phylum": "脊索動物門",
@@ -294,8 +315,9 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/ChildrenArea/GuineaPigs/GuineaPigs_Pic02.jpg"
   },
   {
+    "A_Id": "A0022",
     "A_Name_Ch": "北美土撥鼠",
-    "A_Location": "",
+    "A_Location": "兒童動物區",
     "A_Name_En": "North American Wood-chuck",
     "A_Name_Latin": "Marmota monax",
     "A_Phylum": "脊索動物門",
@@ -308,6 +330,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/ChildrenArea/Groundhog/Groundhog_Pic02.jpg"
   },
   {
+    "A_Id": "A0023",
     "A_Name_Ch": "羊駝",
     "A_Location": "兒童動物區",
     "A_Name_En": "Alpaca",
@@ -322,6 +345,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/ChildrenArea/Alpaca/Alpaca_Pic02.jpg"
   },
   {
+    "A_Id": "A0024",
     "A_Name_Ch": "長鼻浣熊",
     "A_Location": "兒童動物區",
     "A_Name_En": "South American coati",
@@ -336,8 +360,9 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/ChildrenArea/Coati/Coati_Pic02.jpg"
   },
   {
+    "A_Id": "A0025",
     "A_Name_Ch": "家兔(馴化兔)",
-    "A_Location": "",
+    "A_Location": "兒童動物區",
     "A_Name_En": "Domestic Rabbit",
     "A_Name_Latin": "Oryctolagus cuniculus",
     "A_Phylum": "脊索動物門",
@@ -350,6 +375,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/ChildrenArea/Rabbit/Rabbit_Pic02.jpg"
   },
   {
+    "A_Id": "A0026",
     "A_Name_Ch": "家驢",
     "A_Location": "兒童動物區",
     "A_Name_En": "Domestic Donkey",
@@ -364,6 +390,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/ChildrenArea/Donkey/Donkey_Pic02.jpg"
   },
   {
+    "A_Id": "A0027",
     "A_Name_Ch": "迷你馬",
     "A_Location": "兒童動物區",
     "A_Name_En": "Pony",
@@ -378,6 +405,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/ChildrenArea/Pony/Pony_Pic02.jpg"
   },
   {
+    "A_Id": "A0028",
     "A_Name_Ch": "黑蜘蛛猴",
     "A_Location": "熱帶雨林區",
     "A_Name_En": "Black Spider Monkey",
@@ -392,6 +420,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/ChildrenArea/SpiderMonkey-B/SpiderMonkey-B_Pic02.jpg"
   },
   {
+    "A_Id": "A0029",
     "A_Name_Ch": "絨鼠",
     "A_Location": "兒童動物區",
     "A_Name_En": "Chinchilla",
@@ -406,6 +435,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/ChildrenArea/Chinchilla/Chinchilla_Pic02.jpg"
   },
   {
+    "A_Id": "A0030",
     "A_Name_Ch": "狐獴",
     "A_Location": "兒童動物區",
     "A_Name_En": "meerkat",
@@ -420,6 +450,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw//iTAP/03_Animals/ChildrenArea/meerkat/meerkat_2.jpg"
   },
   {
+    "A_Id": "A0031",
     "A_Name_Ch": "黑冠松鼠猴",
     "A_Location": "熱帶雨林區",
     "A_Name_En": "Black-capped Squirrel Monkey",
@@ -434,6 +465,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw//iTAP/03_Animals/RainForest/Black-capped%20Squirrel%20Monkey/Black-capped%20Squirrel%20Monkey_2.jpg"
   },
   {
+    "A_Id": "A0032",
     "A_Name_Ch": "中國鱷蜥",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Chinese crocodile lizard",
@@ -448,6 +480,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Lizard-CC/Lizard-CC_Pic02.jpg"
   },
   {
+    "A_Id": "A0033",
     "A_Name_Ch": "中部鬍鬚蜥",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Central bearded dragon",
@@ -462,6 +495,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Dragon-CB/Dragon-CB_Pic02.jpg"
   },
   {
+    "A_Id": "A0034",
     "A_Name_Ch": "加州王蛇",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "California king snake",
@@ -476,6 +510,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Snake-CK/Snake-CK_Pic02.jpg"
   },
   {
+    "A_Id": "A0035",
     "A_Name_Ch": "卡羅萊納箱龜",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Common box turtle",
@@ -490,6 +525,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0036",
     "A_Name_Ch": "四爪陸龜",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Horsfield's tortoise",
@@ -504,6 +540,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0037",
     "A_Name_Ch": "巨板蜥",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Rough-scaled plated lizard",
@@ -518,6 +555,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Lizard-SP/Lizard-SP_Pic02.jpg"
   },
   {
+    "A_Id": "A0038",
     "A_Name_Ch": "印度星龜",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Indian star tortoise",
@@ -532,6 +570,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Tortoise-IS/Tortoise-IS_Pic02.jpg"
   },
   {
+    "A_Id": "A0039",
     "A_Name_Ch": "地毯莫瑞蟒",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Carpet python",
@@ -546,6 +585,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Python-C/Python-C_Pic02.jpg"
   },
   {
+    "A_Id": "A0040",
     "A_Name_Ch": "百步蛇",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Hundred-pace Viper(Chinese Moccasin)",
@@ -560,6 +600,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Viper-HP/Viper-HP_Pic02.jpg"
   },
   {
+    "A_Id": "A0041",
     "A_Name_Ch": "西部豬鼻蛇",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Western hognose snake",
@@ -574,6 +615,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0042",
     "A_Name_Ch": "亞洲棕龜",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Asian brown tortoise",
@@ -588,6 +630,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0043",
     "A_Name_Ch": "亞達伯拉象龜",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Aldabra Giant Tortoise",
@@ -602,6 +645,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Tortoise-AG/Tortoise-AG_Pic02.jpg"
   },
   {
+    "A_Id": "A0044",
     "A_Name_Ch": "東方鈴蟾",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Oriental fire-bellied toad",
@@ -616,6 +660,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0045",
     "A_Name_Ch": "非洲爪蟾",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "African clawed toad",
@@ -630,6 +675,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Toad-AC/Toad-AC_Pic02.jpg"
   },
   {
+    "A_Id": "A0046",
     "A_Name_Ch": "扁頭長頸龜",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Siebenrock’s side-necked turtle",
@@ -644,6 +690,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0047",
     "A_Name_Ch": "百花錦蛇",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Moellendorff's Ratsnake",
@@ -658,6 +705,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0048",
     "A_Name_Ch": "柏布拉奶蛇",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Pueblan milk snake",
@@ -672,6 +720,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0049",
     "A_Name_Ch": "紅尾蚺",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Common boa constrictor",
@@ -686,6 +735,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0050",
     "A_Name_Ch": "紅腹側頸龜",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Red-bellied short-neck turtle",
@@ -700,6 +750,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0051",
     "A_Name_Ch": "紅腿象龜",
     "A_Location": "熱帶雨林室內館(穿山甲館);兩棲爬蟲動物館",
     "A_Name_En": "Red-foot tortoise",
@@ -714,6 +765,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0052",
     "A_Name_Ch": "美洲鼠蛇",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Common ratsnake",
@@ -728,6 +780,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0053",
     "A_Name_Ch": "食蛇龜",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Yellow-margined box turtle",
@@ -742,6 +795,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Turtle-YB/Turtle-YB_Pic02.jpg"
   },
   {
+    "A_Id": "A0054",
     "A_Name_Ch": "射紋陸龜",
     "A_Location": "熱帶雨林室內館(穿山甲館);兩棲爬蟲動物館",
     "A_Name_En": "Radiated tortoise",
@@ -756,6 +810,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0055",
     "A_Name_Ch": "豹紋象龜",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Leopard tortoise",
@@ -770,6 +825,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0056",
     "A_Name_Ch": "豹紋瞼虎",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Leopard gecko",
@@ -784,6 +840,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Gecko-L/Gecko-L_Pic02.jpg"
   },
   {
+    "A_Id": "A0057",
     "A_Name_Ch": "馬達加斯加鈍尾蜥",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Madagascan swift",
@@ -798,6 +855,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Iguana-M/Iguana-M_Pic02.jpg"
   },
   {
+    "A_Id": "A0058",
     "A_Name_Ch": "高冠變色龍",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Veiled chameleon",
@@ -812,6 +870,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0059",
     "A_Name_Ch": "彩虹蚺",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Rainbow boa",
@@ -826,6 +885,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0060",
     "A_Name_Ch": "歐洲蛇蜥",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "European glass lizard",
@@ -840,6 +900,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0061",
     "A_Name_Ch": "斜紋藍舌蜥",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Eastern blue-tongued skink",
@@ -854,6 +915,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Skink-EB/Skink-EB_Pic02.jpg"
   },
   {
+    "A_Id": "A0062",
     "A_Name_Ch": "條紋頸帶蜥",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Black tegu",
@@ -868,6 +930,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0063",
     "A_Name_Ch": "球蟒",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": " Ball python",
@@ -882,6 +945,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Python-Bal/Python-Bal_Pic02.jpg"
   },
   {
+    "A_Id": "A0064",
     "A_Name_Ch": "眼斑銅蜥",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": " Ocellated skink",
@@ -896,6 +960,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0065",
     "A_Name_Ch": "莫氏樹蛙",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Moltrecht’s green treefrog",
@@ -910,6 +975,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Frog-NT/Frog-NT_Pic02.jpg"
   },
   {
+    "A_Id": "A0066",
     "A_Name_Ch": "斑龜",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Chinese striped-neck turtle",
@@ -924,6 +990,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0067",
     "A_Name_Ch": "斯文豪氏攀蜥",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Swinhoe’s tree lizard",
@@ -938,6 +1005,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Lizard-ST/Lizard-ST_Pic02.jpg"
   },
   {
+    "A_Id": "A0068",
     "A_Name_Ch": "猴尾蜥",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Monkey-tailed skink",
@@ -952,6 +1020,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0069",
     "A_Name_Ch": "華麗王者蜥",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Ornate Mastigure",
@@ -966,6 +1035,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0070",
     "A_Name_Ch": "鈍尾毒蜥",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Gila monster",
@@ -980,6 +1050,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Gila/Gila_Pic02.jpg"
   },
   {
+    "A_Id": "A0071",
     "A_Name_Ch": "黃頭象龜",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Yellow-headed tortoise",
@@ -994,6 +1065,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0072",
     "A_Name_Ch": "黃環林蛇",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Mangrove snake",
@@ -1008,6 +1080,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0073",
     "A_Name_Ch": "圓眼珍珠蛙",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Budgett's frog",
@@ -1022,6 +1095,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Frog-H/Frog-H_Pic02.jpg"
   },
   {
+    "A_Id": "A0074",
     "A_Name_Ch": "飾紋角蛙",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Ornate horned frog",
@@ -1036,6 +1110,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0075",
     "A_Name_Ch": "綠長鬣蜥",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Green water dragon",
@@ -1050,6 +1125,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Dragon-GW/Dragon-GW_Pic02.jpg"
   },
   {
+    "A_Id": "A0076",
     "A_Name_Ch": "綠樹蟒",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": " Green tree python",
@@ -1064,6 +1140,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Python-GT/Python-GT_Pic02.jpg"
   },
   {
+    "A_Id": "A0077",
     "A_Name_Ch": "綠鬣蜥",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Green iguana",
@@ -1078,6 +1155,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Iguana/Iguana_Pic02.jpg"
   },
   {
+    "A_Id": "A0078",
     "A_Name_Ch": "翡翠樹蛙",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": " Emerald green tree frog",
@@ -1092,6 +1170,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Frog-ET/Frog-ET_Pic02.jpg"
   },
   {
+    "A_Id": "A0079",
     "A_Name_Ch": "臺灣錦蛇",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Taiwan beauty rat snake",
@@ -1106,6 +1185,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Snake-TB/Snake-TB_Pic02.jpg"
   },
   {
+    "A_Id": "A0080",
     "A_Name_Ch": "赫曼氏陸龜",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Hermann’s tortoise",
@@ -1120,6 +1200,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0081",
     "A_Name_Ch": "歐洲陸龜",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Spur-thighed tortoise",
@@ -1134,6 +1215,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0082",
     "A_Name_Ch": "緬甸岩蟒",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Burmese python",
@@ -1148,6 +1230,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0083",
     "A_Name_Ch": "緬甸星龜",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Burmese star tortoise",
@@ -1162,6 +1245,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Tortoise-BS/Tortoise-BS_Pic02.jpg"
   },
   {
+    "A_Id": "A0084",
     "A_Name_Ch": "豬鼻龜",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Pig-nosed turtle",
@@ -1176,6 +1260,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Turtle-P/Turtle-P_Pic02.jpg"
   },
   {
+    "A_Id": "A0085",
     "A_Name_Ch": "雙脊冠蜥",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Double-crested basilisk",
@@ -1190,6 +1275,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Basilisk/Basilisk_Pic02.jpg"
   },
   {
+    "A_Id": "A0086",
     "A_Name_Ch": "麗紋石龍子",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Elegant five-lined skink",
@@ -1204,6 +1290,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Skink-EF/Skink-EF_Pic02.jpg"
   },
   {
+    "A_Id": "A0087",
     "A_Name_Ch": "蘇利南負子蟾",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Elegant five-lined skink",
@@ -1218,6 +1305,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0088",
     "A_Name_Ch": "鱷龜",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Alligator snapping turtle",
@@ -1232,6 +1320,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Turtle-AS/Turtle-AS_Pic02.jpg"
   },
   {
+    "A_Id": "A0089",
     "A_Name_Ch": "網紋蟒",
     "A_Location": "兩棲爬蟲動物館;熱帶雨林區",
     "A_Name_En": "Reticulated python",
@@ -1246,6 +1335,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Python-R/Python-R_Pic02.jpg"
   },
   {
+    "A_Id": "A0090",
     "A_Name_Ch": "蘇卡達象龜",
     "A_Location": "兩棲爬蟲動物館;非洲動物區",
     "A_Name_En": "African spurred tortoise",
@@ -1260,6 +1350,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AmphibianReptile/Totoise-AP/Totoise-AP_Pic02.jpg"
   },
   {
+    "A_Id": "A0091",
     "A_Name_Ch": "揚子鱷",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Chinese alligator?",
@@ -1274,6 +1365,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0092",
     "A_Name_Ch": "黃頭陸龜",
     "A_Location": "兩棲爬蟲動物館",
     "A_Name_En": "Elongate tortoise?",
@@ -1288,6 +1380,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0206",
     "A_Name_Ch": "北非髯羊",
     "A_Location": "非洲動物區",
     "A_Name_En": "Barbary Sheep",
@@ -1302,6 +1395,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Sheep-B/Sheep-B_Pic02.jpg"
   },
   {
+    "A_Id": "A0207",
     "A_Name_Ch": "白犀牛",
     "A_Location": "非洲動物區",
     "A_Name_En": "White Rhinoceros或Square-Lipped Rhinoceros",
@@ -1316,6 +1410,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Rhino-W/Rhino-W_Pic02.jpg"
   },
   {
+    "A_Id": "A0208",
     "A_Name_Ch": "白頸狐猴",
     "A_Location": "非洲動物區",
     "A_Name_En": "Black and White Ruffed Lemur",
@@ -1330,6 +1425,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Lemur-R/Lemur-R_Pic02.jpg"
   },
   {
+    "A_Id": "A0209",
     "A_Name_Ch": "伊蘭羚羊",
     "A_Location": "非洲動物區",
     "A_Name_En": "Common Eland",
@@ -1344,6 +1440,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Eland/Eland_Pic02.jpg"
   },
   {
+    "A_Id": "A0210",
     "A_Name_Ch": "東非狒狒",
     "A_Location": "非洲動物區",
     "A_Name_En": "Olive Baboons",
@@ -1358,6 +1455,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Baboon/Baboon_Pic02.jpg"
   },
   {
+    "A_Id": "A0211",
     "A_Name_Ch": "金剛猩猩",
     "A_Location": "非洲動物區",
     "A_Name_En": "Gorilla",
@@ -1372,6 +1470,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Gorilla/Gorilla_Pic02.jpg"
   },
   {
+    "A_Id": "A0212",
     "A_Name_Ch": "非洲象",
     "A_Location": "非洲動物區",
     "A_Name_En": "African Elephant",
@@ -1386,6 +1485,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Elephant-AF/Elephant-AF_Pic02.jpg"
   },
   {
+    "A_Id": "A0213",
     "A_Name_Ch": "非洲獅",
     "A_Location": "非洲動物區",
     "A_Name_En": "Lion ",
@@ -1400,6 +1500,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Lion/Lion_Pic02.jpg"
   },
   {
+    "A_Id": "A0214",
     "A_Name_Ch": "查普曼斑馬",
     "A_Location": "非洲動物區",
     "A_Name_En": "Chapman's zebra",
@@ -1414,6 +1515,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Zebra-C/Zebra-C_Pic02.jpg"
   },
   {
+    "A_Id": "A0215",
     "A_Name_Ch": "紅猴",
     "A_Location": "非洲動物區",
     "A_Name_En": "Patas Monkey",
@@ -1428,6 +1530,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Monkey-P/Monkey-P_Pic02.jpg"
   },
   {
+    "A_Id": "A0216",
     "A_Name_Ch": "格利威斑馬",
     "A_Location": "非洲動物區",
     "A_Name_En": "Grevy's Zebra",
@@ -1442,6 +1545,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Zebra-G/Zebra-G_Pic02.jpg"
   },
   {
+    "A_Id": "A0217",
     "A_Name_Ch": "斑哥條紋羚",
     "A_Location": "非洲動物區",
     "A_Name_En": "Bongo",
@@ -1456,6 +1560,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Bongo/Bongo_Pic02.jpg"
   },
   {
+    "A_Id": "A0218",
     "A_Name_Ch": "斑點鬣狗",
     "A_Location": "非洲動物區",
     "A_Name_En": "Spotted hyena",
@@ -1470,6 +1575,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Hyena/Hyena_Pic02.jpg"
   },
   {
+    "A_Id": "A0219",
     "A_Name_Ch": "黑猩猩",
     "A_Location": "非洲動物區",
     "A_Name_En": "Chimpanzee",
@@ -1484,6 +1590,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Chimp/Chimp_Pic02.jpg"
   },
   {
+    "A_Id": "A0220",
     "A_Name_Ch": "聖環",
     "A_Location": "非洲動物區",
     "A_Name_En": "Sacred lbis",
@@ -1498,6 +1605,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Ibis-AS/Ibis-AS_Pic02.jpg"
   },
   {
+    "A_Id": "A0221",
     "A_Name_Ch": "網紋長頸鹿",
     "A_Location": "非洲動物區",
     "A_Name_En": "Giraffe",
@@ -1512,6 +1620,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Giraffe/Giraffe_Pic02.jpg"
   },
   {
+    "A_Id": "A0222",
     "A_Name_Ch": "褐狐猴",
     "A_Location": "非洲動物區",
     "A_Name_En": "Brown Lemur",
@@ -1526,6 +1635,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Lemur-B/Lemur-B_Pic02.jpg"
   },
   {
+    "A_Id": "A0223",
     "A_Name_Ch": "鴕鳥",
     "A_Location": "非洲動物區",
     "A_Name_En": "Ostrich",
@@ -1540,6 +1650,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Ostrich/Ostrich_Pic02.jpg"
   },
   {
+    "A_Id": "A0224",
     "A_Name_Ch": "環尾狐猴",
     "A_Location": "非洲動物區",
     "A_Name_En": "Ring-tailed Lemur",
@@ -1554,6 +1665,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Lemur-RT/Lemur-RT_Pic02.jpg"
   },
   {
+    "A_Id": "A0225",
     "A_Name_Ch": "侏儒河馬",
     "A_Location": "非洲動物區",
     "A_Name_En": "Pigmy Hippopotamus",
@@ -1568,6 +1680,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Hippo-P/Hippo-P_Pic02.jpg"
   },
   {
+    "A_Id": "A0226",
     "A_Name_Ch": "東非劍羚",
     "A_Location": "非洲動物區",
     "A_Name_En": "",
@@ -1578,10 +1691,11 @@
     "A_Distribution": "衣索比亞、索馬利亞、那米比亞等東南非。",
     "A_Habitat": "息在乾燥開闊的林地、草原或是石礫地上",
     "A_Feature": "肩高約120公分，重210公斤。\n體色為灰棕底色，腹部白色，臀部、腿部黑色，黑白相間為其特色；雌雄頭上都長角(雌 羚羊角較細)，角長而直由眼後筆直長出。幼羚為棕色調。",
-    "A_Pic01_URL": "",
-    "A_Pic02_URL": ""
+    "A_Pic01_URL": "http://image.iltaw.com/20130423/70/54/oJsXurxqRXZUiGF6.jpg",
+    "A_Pic02_URL": "https://i1.kknews.cc/SIG=8i7i5t/15330000s6325517581s.jpg"
   },
   {
+    "A_Id": "A0227",
     "A_Name_Ch": "河馬",
     "A_Location": "非洲動物區",
     "A_Name_En": "Hippopotamus",
@@ -1596,6 +1710,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AfricanArea/Hippo/Hippo_Pic02.jpg"
   },
   {
+    "A_Id": "A0228",
     "A_Name_Ch": "大寶冠鳥",
     "A_Location": "鳥園區",
     "A_Name_En": "Great Curassow",
@@ -1610,6 +1725,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Curassow/Curassow_Pic02.jpg"
   },
   {
+    "A_Id": "A0229",
     "A_Name_Ch": "白尾八哥",
     "A_Location": "鳥園區",
     "A_Name_En": "White-vented mynah",
@@ -1624,6 +1740,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Myna-W/Myna-W_Pic02.jpg"
   },
   {
+    "A_Id": "A0230",
     "A_Name_Ch": "白腹鶇",
     "A_Location": "鳥園區",
     "A_Name_En": "Pale thrush",
@@ -1638,6 +1755,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0231",
     "A_Name_Ch": "白頰椋鳥",
     "A_Location": "鳥園區",
     "A_Name_En": "Pied Mynah",
@@ -1652,6 +1770,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Myna-P/Myna-P_Pic02.jpg"
   },
   {
+    "A_Id": "A0232",
     "A_Name_Ch": "白鷴",
     "A_Location": "鳥園區",
     "A_Name_En": " Silver Pheasant ",
@@ -1666,6 +1785,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Pheasant/Pheasant_Pic02.jpg"
   },
   {
+    "A_Id": "A0233",
     "A_Name_Ch": "灰林鴿",
     "A_Location": "鳥園區",
     "A_Name_En": "Ashy Wood Pigeon",
@@ -1680,6 +1800,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0234",
     "A_Name_Ch": "竹雞",
     "A_Location": "鳥園區",
     "A_Name_En": "Bamboo Partridge",
@@ -1694,6 +1815,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Patridge/Patridge_Pic02.jpg"
   },
   {
+    "A_Id": "A0235",
     "A_Name_Ch": "羽衣鶴",
     "A_Location": "鳥園區",
     "A_Name_En": "Blue Crane",
@@ -1708,6 +1830,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Crane-B/Crane-B_Pic02.jpg"
   },
   {
+    "A_Id": "A0236",
     "A_Name_Ch": "赤腹鶇",
     "A_Location": "鳥園區",
     "A_Name_En": "Naumann's thrush",
@@ -1722,6 +1845,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0237",
     "A_Name_Ch": "金背鳩",
     "A_Location": "鳥園區",
     "A_Name_En": "Oriental Turtle-dove",
@@ -1736,6 +1860,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Dove-OT/Dove-OT_Pic02.jpg"
   },
   {
+    "A_Id": "A0238",
     "A_Name_Ch": "青鸞",
     "A_Location": "鳥園區",
     "A_Name_En": "Great Argus",
@@ -1750,6 +1875,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Argus/Argus_Pic02.jpg"
   },
   {
+    "A_Id": "A0239",
     "A_Name_Ch": "紅冠水雞",
     "A_Location": "鳥園區",
     "A_Name_En": "Moorhen",
@@ -1764,6 +1890,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Moorhen/Moorhen_Pic02.jpg"
   },
   {
+    "A_Id": "A0240",
     "A_Name_Ch": "紅鳩",
     "A_Location": "鳥園區",
     "A_Name_En": "Red Turtle Dove",
@@ -1778,6 +1905,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Dove-RT/Dove-RT_Pic02.jpg"
   },
   {
+    "A_Id": "A0241",
     "A_Name_Ch": "紅鹮",
     "A_Location": "鳥園區",
     "A_Name_En": "Scarlet Ibis",
@@ -1792,6 +1920,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Ibis-S/Ibis-S_Pic02.jpg"
   },
   {
+    "A_Id": "A0242",
     "A_Name_Ch": "美洲木鴨",
     "A_Location": "鳥園區",
     "A_Name_En": "American Wood Duck",
@@ -1806,6 +1935,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Duck-W/Duck-W_Pic02.jpg"
   },
   {
+    "A_Id": "A0243",
     "A_Name_Ch": "紫蕉鵑",
     "A_Location": "鳥園區",
     "A_Name_En": "Violet Turaco",
@@ -1820,6 +1950,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Turaco-V/Turaco-V_Pic02.jpg"
   },
   {
+    "A_Id": "A0244",
     "A_Name_Ch": "黑袖椋鳥",
     "A_Location": "鳥園區",
     "A_Name_En": "Black-winged Starling",
@@ -1834,6 +1965,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Myna-BW/Myna-BW_Pic02.jpg"
   },
   {
+    "A_Id": "A0245",
     "A_Name_Ch": "黑袖鴿",
     "A_Location": "鳥園區",
     "A_Name_En": "Pied Imperial Pigeon",
@@ -1848,6 +1980,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Pigeon-PI/Pigeon-PI_Pic02.jpg"
   },
   {
+    "A_Id": "A0246",
     "A_Name_Ch": "黑頸冠鶴",
     "A_Location": "鳥園區",
     "A_Name_En": "Black Crowned Crane",
@@ -1862,6 +1995,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Crane-BC/Crane-BC_Pic02.jpg"
   },
   {
+    "A_Id": "A0247",
     "A_Name_Ch": "綠絲冠僧帽鳥",
     "A_Location": "鳥園區",
     "A_Name_En": "Guinea Turaco",
@@ -1876,6 +2010,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Touraco/Touraco_Pic02.jpg"
   },
   {
+    "A_Id": "A0248",
     "A_Name_Ch": "綠簑鷺",
     "A_Location": "鳥園區",
     "A_Name_En": "Striated Heron",
@@ -1890,6 +2025,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0249",
     "A_Name_Ch": "翠翼鳩",
     "A_Location": "鳥園區",
     "A_Name_En": "Emerald Dove",
@@ -1904,6 +2040,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Dove-E/Dove-E_Pic02.jpg"
   },
   {
+    "A_Id": "A0250",
     "A_Name_Ch": "臺灣擬啄木",
     "A_Location": "鳥園區",
     "A_Name_En": "Taiwan Barbet",
@@ -1918,6 +2055,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Barbet-B/Barbet-B_Pic02.jpg"
   },
   {
+    "A_Id": "A0251",
     "A_Name_Ch": "澳洲冠鳩",
     "A_Location": "鳥園區",
     "A_Name_En": "Crested Pigeon",
@@ -1932,6 +2070,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Pegeon-C/Pegeon-C_Pic02.jpg"
   },
   {
+    "A_Id": "A0252",
     "A_Name_Ch": "藍孔雀",
     "A_Location": "鳥園區",
     "A_Name_En": "Common Peafowl",
@@ -1946,6 +2085,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Peafowl/Peafowl_Pic02.jpg"
   },
   {
+    "A_Id": "A0253",
     "A_Name_Ch": "藍冠鴿",
     "A_Location": "鳥園區",
     "A_Name_En": "Crowned Pigeon",
@@ -1960,6 +2100,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Pigeon-WC/Pigeon-WC_Pic02.jpg"
   },
   {
+    "A_Id": "A0254",
     "A_Name_Ch": "綠簑鴿",
     "A_Location": "鳥園區",
     "A_Name_En": "Nicobar Pigeon",
@@ -1974,6 +2115,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Pigeon-N/Pigeon-N_Pic02.jpg"
   },
   {
+    "A_Id": "A0255",
     "A_Name_Ch": "白頭鳶",
     "A_Location": "鳥園區",
     "A_Name_En": "Brahminy Kite",
@@ -1988,6 +2130,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0256",
     "A_Name_Ch": "白鸛",
     "A_Location": "鳥園區",
     "A_Name_En": "European White Srork",
@@ -2002,6 +2145,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Stork-EW/Stork-EW_Pic02.jpg"
   },
   {
+    "A_Id": "A0257",
     "A_Name_Ch": "禿鸛",
     "A_Location": "鳥園區",
     "A_Name_En": "Marabou Stork",
@@ -2016,6 +2160,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Stork-M/Stork-M_Pic02.jpg"
   },
   {
+    "A_Id": "A0258",
     "A_Name_Ch": "熊鷹",
     "A_Location": "鳥園區",
     "A_Name_En": "Hodgson’s Hawk Eagle",
@@ -2030,6 +2175,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0259",
     "A_Name_Ch": "褐林鴞",
     "A_Location": "鳥園區",
     "A_Name_En": "Brown Wood Owl",
@@ -2044,6 +2190,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Owl-BW/Owl-BW_Pic02.jpg"
   },
   {
+    "A_Id": "A0260",
     "A_Name_Ch": "鵰鴞",
     "A_Location": "鳥園區",
     "A_Name_En": "Great eagle owl",
@@ -2058,6 +2205,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Owl-EE/Owl-EE_Pic02.jpg"
   },
   {
+    "A_Id": "A0261",
     "A_Name_Ch": "大冠鷲",
     "A_Location": "鳥園區;臺灣動物區",
     "A_Name_En": "Crested Serpent Eagle",
@@ -2072,6 +2220,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Eagle-CS/Eagle-CS_Pic02.jpg"
   },
   {
+    "A_Id": "A0262",
     "A_Name_Ch": "大巨嘴鳥",
     "A_Location": "鳥園區;熱帶雨林室內館(穿山甲館)",
     "A_Name_En": "Toco Toucan",
@@ -2086,6 +2235,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Toucan/Toucan_Pic02.jpg"
   },
   {
+    "A_Id": "A0263",
     "A_Name_Ch": "灰野雞",
     "A_Location": "鳥園區",
     "A_Name_En": "Gray jungle fowl",
@@ -2100,6 +2250,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Fowl-GJ/Fowl-GJ_Pic02.jpg"
   },
   {
+    "A_Id": "A0264",
     "A_Name_Ch": "竹鳥",
     "A_Location": "鳥園區",
     "A_Name_En": "Rufous Laughing Thrush",
@@ -2114,6 +2265,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Thrush-GL/Thrush-GL_Pic02.jpg"
   },
   {
+    "A_Id": "A0265",
     "A_Name_Ch": "金雞",
     "A_Location": "鳥園區",
     "A_Name_En": "Golden Pheasant",
@@ -2128,6 +2280,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Pheasnat-G/Pheasnat-G_Pic02.jpg"
   },
   {
+    "A_Id": "A0266",
     "A_Name_Ch": "紅天堂鳥",
     "A_Location": "鳥園區",
     "A_Name_En": "Red Bird of Paradise",
@@ -2142,6 +2295,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0267",
     "A_Name_Ch": "黃魚鴞",
     "A_Location": "鳥園區",
     "A_Name_En": "Tawny fish owl",
@@ -2156,6 +2310,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Owl-TF/Owl-TF_Pic02.jpg"
   },
   {
+    "A_Id": "A0268",
     "A_Name_Ch": "維多利亞冠鴿",
     "A_Location": "鳥園區;熱帶雨林室內館(穿山甲館)",
     "A_Name_En": "Victoria Crowned Pigeon",
@@ -2170,6 +2325,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Pigeon-VC/Pigeon-VC_Pic02.jpg"
   },
   {
+    "A_Id": "A0269",
     "A_Name_Ch": "臺灣八哥",
     "A_Location": "鳥園區",
     "A_Name_En": "Crested Myna",
@@ -2184,6 +2340,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Myna-C/Myna-C_Pic02.jpg"
   },
   {
+    "A_Id": "A0270",
     "A_Name_Ch": "臺灣藍鵲",
     "A_Location": "鳥園區",
     "A_Name_En": "Taiwan Blue Magpie  ",
@@ -2198,6 +2355,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Magqie/Magqie_Pic02.jpg"
   },
   {
+    "A_Id": "A0271",
     "A_Name_Ch": "環頸雉",
     "A_Location": "鳥園區",
     "A_Name_En": "Ring-necked Pheasant",
@@ -2212,6 +2370,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Pheasant-R/Pheasant-R_Pic02.jpg"
   },
   {
+    "A_Id": "A0272",
     "A_Name_Ch": "藍腹鷴",
     "A_Location": "鳥園區;臺灣動物區",
     "A_Name_En": "Swinhoes Pheasant",
@@ -2226,6 +2385,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Pheasant-S/Pheasant-S_Pic02.jpg"
   },
   {
+    "A_Id": "A0273",
     "A_Name_Ch": "白鳳頭鸚鵡",
     "A_Location": "鳥園區",
     "A_Name_En": "White Cockatoo",
@@ -2240,6 +2400,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Cockatoo-W/Cockatoo-W_Pic02.jpg"
   },
   {
+    "A_Id": "A0274",
     "A_Name_Ch": "折衷鸚鵡",
     "A_Location": "鳥園區",
     "A_Name_En": "Eclectus Parrot",
@@ -2254,6 +2415,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Parrot-E/Parrot-E_Pic02.jpg"
   },
   {
+    "A_Id": "A0275",
     "A_Name_Ch": "藍額亞馬遜鸚鵡",
     "A_Location": "鳥園區",
     "A_Name_En": "Blue-fronted Amazon",
@@ -2268,6 +2430,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Parrot-B/Parrot-B_Pic02.jpg"
   },
   {
+    "A_Id": "A0276",
     "A_Name_Ch": "非洲灰鸚鵡",
     "A_Location": "鳥園區",
     "A_Name_En": "Congo Grey Parrot",
@@ -2282,6 +2445,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Parrot-AG/Parrot-AG_Pic02.jpg"
   },
   {
+    "A_Id": "A0277",
     "A_Name_Ch": "棕櫚鳳頭鸚鵡",
     "A_Location": "鳥園區",
     "A_Name_En": "Palm Cockatoo",
@@ -2296,6 +2460,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Cockatoo-P/Cockatoo-P_Pic02.jpg"
   },
   {
+    "A_Id": "A0278",
     "A_Name_Ch": "黃腹藍琉璃金剛鸚鵡",
     "A_Location": "鳥園區;熱帶雨林室內館(穿山甲館)",
     "A_Name_En": "Blue-and-Yellow Macaw",
@@ -2310,6 +2475,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Macaw-B/Macaw-B_Pic02.jpg"
   },
   {
+    "A_Id": "A0279",
     "A_Name_Ch": "綠翼金剛鸚鵡",
     "A_Location": "鳥園區",
     "A_Name_En": "Military Macaw",
@@ -2324,6 +2490,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Macaw-G/Macaw-G_Pic02.jpg"
   },
   {
+    "A_Id": "A0280",
     "A_Name_Ch": "紅領綠鸚鵡",
     "A_Location": "鳥園區;兒童動物區",
     "A_Name_En": "Rose-ringed Parakeet",
@@ -2338,6 +2505,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Parakeet-R/Parakeet-R_Pic02.jpg"
   },
   {
+    "A_Id": "A0281",
     "A_Name_Ch": "小紅鶴",
     "A_Location": "鳥園區",
     "A_Name_En": "Lesser Flamingo",
@@ -2352,6 +2520,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Flamingo-L /Flamingo-L _Pic02.jpg"
   },
   {
+    "A_Id": "A0282",
     "A_Name_Ch": "丹頂鶴",
     "A_Location": "鳥園區",
     "A_Name_En": "Red-crowned Crane",
@@ -2366,6 +2535,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Tancho/Tancho_Pic02.jpg"
   },
   {
+    "A_Id": "A0283",
     "A_Name_Ch": "白枕鶴",
     "A_Location": "鳥園區",
     "A_Name_En": "White-naped Crane",
@@ -2380,6 +2550,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Crane-W/Crane-W _Pic02.jpg"
   },
   {
+    "A_Id": "A0284",
     "A_Name_Ch": "白頭鶴",
     "A_Location": "鳥園區",
     "A_Name_En": "Hooded Crane",
@@ -2394,6 +2565,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0285",
     "A_Name_Ch": "赤頸鶴",
     "A_Location": "鳥園區",
     "A_Name_En": "Sarus Crane",
@@ -2408,6 +2580,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Crane-S/Crane-S_Pic02.jpg"
   },
   {
+    "A_Id": "A0286",
     "A_Name_Ch": "大紅鶴",
     "A_Location": "鳥園區;兒童動物區",
     "A_Name_En": "Greater flamingo",
@@ -2422,6 +2595,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Flamigo-G/Flamigo-G_Pic02.jpg"
   },
   {
+    "A_Id": "A0287",
     "A_Name_Ch": "智利紅鶴",
     "A_Location": "鳥園區;兒童動物區",
     "A_Name_En": "Chilean Flamingo",
@@ -2436,6 +2610,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Flamigo-C/Flamigo-C_Pic02.jpg"
   },
   {
+    "A_Id": "A0288",
     "A_Name_Ch": "灰鶴",
     "A_Location": "鳥園區",
     "A_Name_En": "Common Crane",
@@ -2450,6 +2625,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Crane-C/Crane-C_Pic02.jpg"
   },
   {
+    "A_Id": "A0289",
     "A_Name_Ch": "黑天鵝",
     "A_Location": "鳥園區",
     "A_Name_En": "Black Swan",
@@ -2464,6 +2640,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Swan-B/Swan-B_Pic02.jpg"
   },
   {
+    "A_Id": "A0290",
     "A_Name_Ch": "綠頭鴨",
     "A_Location": "鳥園區",
     "A_Name_En": "Mallard",
@@ -2478,6 +2655,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Mallard/Mallard_Pic02.jpg"
   },
   {
+    "A_Id": "A0291",
     "A_Name_Ch": "埃及雁",
     "A_Location": "鳥園區",
     "A_Name_En": "Egyptian Goose?",
@@ -2492,6 +2670,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Goose-E/Goose-E_Pic02.jpg"
   },
   {
+    "A_Id": "A0292",
     "A_Name_Ch": "鴛鴦",
     "A_Location": "鳥園區",
     "A_Name_En": "Mandarin Duck",
@@ -2506,6 +2685,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Duck-M/Duck-M_Pic02.jpg"
   },
   {
+    "A_Id": "A0293",
     "A_Name_Ch": "白腹秧雞",
     "A_Location": "鳥園區",
     "A_Name_En": "White-breasted Waterhen",
@@ -2520,6 +2700,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/WaterHen/WaterHen_Pic02.jpg"
   },
   {
+    "A_Id": "A0294",
     "A_Name_Ch": "白鵜鶘",
     "A_Location": "鳥園區",
     "A_Name_En": "Great White Pelican",
@@ -2534,6 +2715,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Pelican-W/Pelican-W_Pic02.jpg"
   },
   {
+    "A_Id": "A0295",
     "A_Name_Ch": "灰頸冠鶴",
     "A_Location": "鳥園區",
     "A_Name_En": "Grey crowned crane",
@@ -2548,6 +2730,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Crane-GC/Crane-GC_Pic02.jpg"
   },
   {
+    "A_Id": "A0296",
     "A_Name_Ch": "埃及聖鹮",
     "A_Location": "鳥園區",
     "A_Name_En": "Sacred Ibis",
@@ -2562,20 +2745,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Ibis-SA/Ibis-SA_Pic02.jpg"
   },
   {
-    "A_Name_Ch": "赤翡翠",
-    "A_Location": "鳥園區",
-    "A_Name_En": "",
-    "A_Name_Latin": "",
-    "A_Phylum": "",
-    "A_Class": "",
-    "A_Order": "",
-    "A_Distribution": "",
-    "A_Habitat": "",
-    "A_Feature": "",
-    "A_Pic01_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Kingfisher-R/Kingfisher-R_Pic01.jpg",
-    "A_Pic02_URL": ""
-  },
-  {
+    "A_Id": "A0297",
     "A_Name_Ch": "簑羽鶴",
     "A_Location": "鳥園區",
     "A_Name_En": "Demoiselle Crane",
@@ -2590,6 +2760,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Crane-D/Crane-D_Pic02.jpg"
   },
   {
+    "A_Id": "A0298",
     "A_Name_Ch": "紅隼",
     "A_Location": "鳥園區",
     "A_Name_En": "Common Kestrel?",
@@ -2604,6 +2775,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0299",
     "A_Name_Ch": "栗鳶",
     "A_Location": "鳥園區",
     "A_Name_En": "Brahminy Kite?",
@@ -2618,6 +2790,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0300",
     "A_Name_Ch": "鳳頭蒼鷹",
     "A_Location": "鳥園區",
     "A_Name_En": "Asian Crested Goshawk ",
@@ -2632,6 +2805,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0301",
     "A_Name_Ch": "小葵花鳳頭鸚鵡",
     "A_Location": "鳥園區",
     "A_Name_En": "Yellow-crested Cockatoo",
@@ -2646,6 +2820,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0302",
     "A_Name_Ch": "黃冠亞馬遜鸚鵡",
     "A_Location": "鳥園區",
     "A_Name_En": "Yellow-crowned Amazon",
@@ -2660,6 +2835,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0303",
     "A_Name_Ch": "黃頸亞馬遜鸚鵡",
     "A_Location": "鳥園區",
     "A_Name_En": "Yellow-naped parrot?",
@@ -2674,6 +2850,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0304",
     "A_Name_Ch": "葵花鳳頭鸚鵡",
     "A_Location": "鳥園區",
     "A_Name_En": "",
@@ -2688,6 +2865,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0305",
     "A_Name_Ch": "無尾熊",
     "A_Location": "無尾熊館",
     "A_Name_En": "Koala",
@@ -2702,6 +2880,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/KoalaHouse/Koala/Koala_Pic02.jpg"
   },
   {
+    "A_Id": "A0306",
     "A_Name_Ch": "小爪水獺",
     "A_Location": "亞洲熱帶雨林;熱帶雨林區;溫帶動物區",
     "A_Name_En": "Asian Small-Clawed Otter",
@@ -2716,6 +2895,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/TemperateZoneAnimalArea/Otter-O/Otter-O_Pic02.jpg"
   },
   {
+    "A_Id": "A0307",
     "A_Name_Ch": "小貓熊",
     "A_Location": "溫帶動物區",
     "A_Name_En": "Lesser Panda",
@@ -2730,6 +2910,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/TemperateZoneAnimalArea/RedPanda/RedPanda_Pic02.jpg"
   },
   {
+    "A_Id": "A0308",
     "A_Name_Ch": "山獅",
     "A_Location": "溫帶動物區",
     "A_Name_En": "Puma, Mountain Lion",
@@ -2744,6 +2925,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/TemperateZoneAnimalArea/Puma/Puma_Pic02.jpg"
   },
   {
+    "A_Id": "A0309",
     "A_Name_Ch": "加拿大河狸",
     "A_Location": "溫帶動物區",
     "A_Name_En": "Canadian Beaver, American Beaver",
@@ -2758,6 +2940,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/TemperateZoneAnimalArea/Beaver/Beaver_Pic02.jpg"
   },
   {
+    "A_Id": "A0310",
     "A_Name_Ch": "北美灰狼",
     "A_Location": "溫帶動物區",
     "A_Name_En": "Gray Wolf",
@@ -2772,6 +2955,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/TemperateZoneAnimalArea/Wolf/Wolf_Pic02.jpg"
   },
   {
+    "A_Id": "A0311",
     "A_Name_Ch": "北美浣熊",
     "A_Location": "溫帶動物區",
     "A_Name_En": "Raccoon, North American Raccoon",
@@ -2786,6 +2970,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/TemperateZoneAnimalArea/Raccoon/Raccoon_Pic02.jpg"
   },
   {
+    "A_Id": "A0312",
     "A_Name_Ch": "亞洲黑熊",
     "A_Location": "溫帶動物區",
     "A_Name_En": "Asiatic Black Bear",
@@ -2800,6 +2985,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/TemperateZoneAnimalArea/Bear-B/Bear-B_Pic02.jpg"
   },
   {
+    "A_Id": "A0313",
     "A_Name_Ch": "阿拉斯加棕熊",
     "A_Location": "溫帶動物區",
     "A_Name_En": "Brown Bear",
@@ -2814,6 +3000,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/TemperateZoneAnimalArea/Bear-AB/Bear-AB_Pic02.jpg"
   },
   {
+    "A_Id": "A0314",
     "A_Name_Ch": "紅耳龜",
     "A_Location": "溫帶動物區",
     "A_Name_En": "Red-eared slider",
@@ -2828,6 +3015,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/TemperateZoneAnimalArea/Slider-RE/Slider-RE_Pic02.jpg"
   },
   {
+    "A_Id": "A0315",
     "A_Name_Ch": "美洲野牛",
     "A_Location": "溫帶動物區",
     "A_Name_En": "American Bison",
@@ -2842,6 +3030,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/TemperateZoneAnimalArea/Bison/Bison_Pic02.jpg"
   },
   {
+    "A_Id": "A0316",
     "A_Name_Ch": "黑尾草原犬鼠",
     "A_Location": "溫帶動物區",
     "A_Name_En": "Black-tailed prairie dog",
@@ -2856,6 +3045,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/TemperateZoneAnimalArea/PrairieDog/PrairieDog_Pic02.jpg"
   },
   {
+    "A_Id": "A0317",
     "A_Name_Ch": "小貓熊",
     "A_Location": "溫帶動物區",
     "A_Name_En": "Lesser Panda",
@@ -2870,6 +3060,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/TemperateZoneAnimalArea/RedPanda/RedPanda_Pic02.jpg"
   },
   {
+    "A_Id": "A0318",
     "A_Name_Ch": "蒙古野馬",
     "A_Location": "溫帶動物區",
     "A_Name_En": "Przewalski's wild horse",
@@ -2884,6 +3075,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/TemperateZoneAnimalArea/Horse-MW/Horse-MW_Pic02.jpg"
   },
   {
+    "A_Id": "A0319",
     "A_Name_Ch": "歐亞大山貓",
     "A_Location": "溫帶動物區",
     "A_Name_En": "Eurasian lynx",
@@ -2898,6 +3090,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/TemperateZoneAnimalArea/Lynx/Lynx_Pic02.jpg"
   },
   {
+    "A_Id": "A0320",
     "A_Name_Ch": "馬來長吻鱷",
     "A_Location": "熱帶雨林區;溫帶動物區",
     "A_Name_En": "Tomistoma schlegelii?",
@@ -2912,6 +3105,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/TemperateZoneAnimalArea/Tomistoma-schlegelii/Tomistoma-schlegelii_Pic02.jpg"
   },
   {
+    "A_Id": "A0321",
     "A_Name_Ch": "石虎",
     "A_Location": "臺灣動物區",
     "A_Name_En": "Leopard Cat",
@@ -2926,6 +3120,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/FormosanArea/FlyingSquirrel/FlyingSquirrel_Pic02.jpg"
   },
   {
+    "A_Id": "A0322",
     "A_Name_Ch": "白鼻心",
     "A_Location": "臺灣動物區",
     "A_Name_En": "Formosan Gem-faced Civet",
@@ -2940,6 +3135,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/FormosanArea/Civet-MP/Civet-MP_Pic02.jpg"
   },
   {
+    "A_Id": "A0323",
     "A_Name_Ch": "臺灣穿山甲",
     "A_Location": "臺灣動物區;熱帶雨林區",
     "A_Name_En": "Formosan Pangolin",
@@ -2954,6 +3150,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/FormosanArea/Pangolin/Pangolin_Pic02.jpg"
   },
   {
+    "A_Id": "A0324",
     "A_Name_Ch": "食蛇龜",
     "A_Location": "臺灣動物區",
     "A_Name_En": "Yellow-margined box turtle",
@@ -2968,6 +3165,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/FormosanArea/Turtle-YB/Turtle-YB_Pic02.jpg"
   },
   {
+    "A_Id": "A0325",
     "A_Name_Ch": "梅花鹿",
     "A_Location": "臺灣動物區",
     "A_Name_En": "Formosan sika deer",
@@ -2982,6 +3180,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/FormosanArea/Sika/Sika_Pic02.jpg"
   },
   {
+    "A_Id": "A0326",
     "A_Name_Ch": "雲豹",
     "A_Location": "臺灣動物區",
     "A_Name_En": "Formosan clouded leopard",
@@ -2996,6 +3195,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/FormosanArea/CloudedLeopard/CloudedLeopard_Pic02.jpg"
   },
   {
+    "A_Id": "A0327",
     "A_Name_Ch": "臺灣野山羊",
     "A_Location": "臺灣動物區",
     "A_Name_En": "Formosan serow",
@@ -3010,6 +3210,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/FormosanArea/Serow/Serow_Pic02.jpg"
   },
   {
+    "A_Id": "A0328",
     "A_Name_Ch": "臺灣野豬",
     "A_Location": "臺灣動物區",
     "A_Name_En": "Formosan Wild Boar",
@@ -3024,6 +3225,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/FormosanArea/Boar/Boar_Pic02.jpg"
   },
   {
+    "A_Id": "A0329",
     "A_Name_Ch": "臺灣黑熊",
     "A_Location": "臺灣動物區",
     "A_Name_En": "Formosan Black Bear",
@@ -3038,6 +3240,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/FormosanArea/Bear-F/Bear-F_Pic02.jpg"
   },
   {
+    "A_Id": "A0330",
     "A_Name_Ch": "臺灣獼猴",
     "A_Location": "臺灣動物區",
     "A_Name_En": "Formosan Macaque",
@@ -3052,6 +3255,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/FormosanArea/Macaque/Macaque_Pic02.jpg"
   },
   {
+    "A_Id": "A0331",
     "A_Name_Ch": "領角鴞",
     "A_Location": "臺灣動物區",
     "A_Name_En": "Collard Scops Owl",
@@ -3066,6 +3270,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/FormosanArea/Owl-CS/Owl-CS_Pic02.jpg"
   },
   {
+    "A_Id": "A0332",
     "A_Name_Ch": "歐亞水獺",
     "A_Location": "臺灣動物區",
     "A_Name_En": "Eurasian otter",
@@ -3080,6 +3285,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/FormosanArea/Otter-E/Otter-E_Pic02.jpg"
   },
   {
+    "A_Id": "A0333",
     "A_Name_Ch": "鼬獾",
     "A_Location": "臺灣動物區",
     "A_Name_En": "Formosan ferret-bedger",
@@ -3094,6 +3300,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/FormosanArea/Badger/Badger_Pic02.jpg"
   },
   {
+    "A_Id": "A0334",
     "A_Name_Ch": "麝香貓",
     "A_Location": "臺灣動物區",
     "A_Name_En": "Small Chinese Civet, Lesser Oriental Civet",
@@ -3108,6 +3315,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/FormosanArea/Civet-SI/Civet-SI_Pic02.jpg"
   },
   {
+    "A_Id": "A0335",
     "A_Name_Ch": "食蟹獴",
     "A_Location": "熱帶雨林區",
     "A_Name_En": "Crab-cating Mongoose",
@@ -3122,6 +3330,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/FormosanArea/Mongoose/Mongoose_Pic02.jpg"
   },
   {
+    "A_Id": "A0336",
     "A_Name_Ch": "臺灣山羌",
     "A_Location": "臺灣動物區;熱帶雨林區;兒童動物區",
     "A_Name_En": "Formosan Reeve's muntjac",
@@ -3136,6 +3345,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/FormosanArea/Muntjac/Muntjac_Pic02.jpg"
   },
   {
+    "A_Id": "A0337",
     "A_Name_Ch": "臺灣八哥",
     "A_Location": "鳥園區",
     "A_Name_En": "Crested Myna",
@@ -3150,6 +3360,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/BirdWorld/Crested_Myna/Crested_Myna_Pic02.jpg"
   },
   {
+    "A_Id": "A0338",
     "A_Name_Ch": "水鹿",
     "A_Location": "臺灣動物區",
     "A_Name_En": "Formosan Smbar",
@@ -3164,6 +3375,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0339",
     "A_Name_Ch": "灰袋鼠",
     "A_Location": "澳洲動物區",
     "A_Name_En": "Eastern Gray Kangaroo",
@@ -3178,6 +3390,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AustralianArea/Kangaroo-G/Kangaroo-G_Pic02.jpg"
   },
   {
+    "A_Id": "A0340",
     "A_Name_Ch": "沼林袋鼠",
     "A_Location": "澳洲動物區",
     "A_Name_En": "dusky wallaby",
@@ -3192,6 +3405,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AustralianArea/Wallaby/Wallaby_Pic02.jpg"
   },
   {
+    "A_Id": "A0341",
     "A_Name_Ch": "南方食火雞",
     "A_Location": "澳洲動物區",
     "A_Name_En": "Southern Cassowary",
@@ -3206,6 +3420,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AustralianArea/Cassowary/Cassowary_Pic02.jpg"
   },
   {
+    "A_Id": "A0342",
     "A_Name_Ch": "鴯鶓",
     "A_Location": "澳洲動物區",
     "A_Name_En": "Emu",
@@ -3220,6 +3435,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/AustralianArea/Emu/Emu_Pic02.jpg"
   },
   {
+    "A_Id": "A0343",
     "A_Name_Ch": "黑掌蜘蛛猴",
     "A_Location": "熱帶雨林區",
     "A_Name_En": "Geoffroy's Spider Monkey",
@@ -3234,6 +3450,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/RainForest/AtelesGeoffroyi/AtelesGeoffroyi_Pic02.jpg"
   },
   {
+    "A_Id": "A0344",
     "A_Name_Ch": "水豚",
     "A_Location": "熱帶雨林區",
     "A_Name_En": "Capybara",
@@ -3248,6 +3465,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/RainForest/Capybara/Capybara_Pic02.jpg"
   },
   {
+    "A_Id": "A0345",
     "A_Name_Ch": "大食蟻獸",
     "A_Location": "熱帶雨林區",
     "A_Name_En": "Giant anteater",
@@ -3262,6 +3480,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/RainForest/Giantanteater/Giantanteater_Pic02.jpg"
   },
   {
+    "A_Id": "A0346",
     "A_Name_Ch": "南美小食蟻獸",
     "A_Location": "熱帶雨林區",
     "A_Name_En": "Southern Tamandua",
@@ -3276,6 +3495,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/RainForest/SouthernTamandua/SouthernTamandua_Pic02.jpg"
   },
   {
+    "A_Id": "A0347",
     "A_Name_Ch": "白面捲尾猴",
     "A_Location": "熱帶雨林區",
     "A_Name_En": "White-fronted capuchin",
@@ -3290,6 +3510,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/RainForest/CebusCapucinus/CebusCapucinus_Pic02.jpg"
   },
   {
+    "A_Id": "A0348",
     "A_Name_Ch": "紅藍吸蜜鸚鵡",
     "A_Location": "熱帶雨林室內館(穿山甲館)",
     "A_Name_En": "Red-and-blue Lory",
@@ -3304,6 +3525,7 @@
     "A_Pic02_URL": "https://www.zoo.gov.tw/iTAP/03_Animals/PangolinDome/RedAndBlueLory/RedAndBlueLory_2.jpg"
   },
   {
+    "A_Id": "A0349",
     "A_Name_Ch": "黃腿象龜",
     "A_Location": "熱帶雨林室內館(穿山甲館)",
     "A_Name_En": "Yellow-footed Tortoise",
@@ -3318,6 +3540,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0350",
     "A_Name_Ch": "棕蜘蛛猴",
     "A_Location": "熱帶雨林區",
     "A_Name_En": "Brown spider monkey",
@@ -3332,6 +3555,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/RainForest/AtelesHybridus/AtelesHybridus_Pic02.jpg"
   },
   {
+    "A_Id": "A0351",
     "A_Name_Ch": "二趾樹獺",
     "A_Location": "熱帶雨林室內館(穿山甲館)",
     "A_Name_En": "Linnaeus's Two-toed Sloth",
@@ -3342,10 +3566,11 @@
     "A_Distribution": "由南美洲的委內瑞拉和圭亞那向南進入巴西，並西至厄瓜多的亞馬遜河上游和祕魯地區",
     "A_Habitat": "熱帶雨林樹冠層",
     "A_Feature": "樹獺有兩層毛，內層較軟、外層較長質地較粗糙。\n在乾燥季節，毛色呈褐色；在充沛的降雨時期，由於藻類的生長，最外層的毛色呈現綠色，具有保護樹獺不易被掠食者發現的效果。",
-    "A_Pic01_URL": "",
-    "A_Pic02_URL": ""
+    "A_Pic01_URL": "https://tw.appledaily.com/resizer/a5zSx5ka9ac0mjw7C7SDYF1X9Gc=/640x480/filters:quality(100)/cloudfront-ap-northeast-1.images.arcpublishing.com/appledaily/LUKSSAPDH3PVPLQNKPAZACSGQU.jpg",
+    "A_Pic02_URL": "http://www.zoo.gov.tw/upload/201808/28/201808281146315222.JPG"
   },
   {
+    "A_Id": "A0352",
     "A_Name_Ch": "慈鯛",
     "A_Location": "熱帶雨林室內館(穿山甲館)",
     "A_Name_En": "Cichlid",
@@ -3360,6 +3585,7 @@
     "A_Pic02_URL": "https://www.zoo.gov.tw/iTAP/03_Animals/PangolinDome/Cichlid/Cichlid_2.jpg"
   },
   {
+    "A_Id": "A0353",
     "A_Name_Ch": "珍珠魟",
     "A_Location": "熱帶雨林室內館(穿山甲館)",
     "A_Name_En": "Ocellate River Stingray",
@@ -3374,6 +3600,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0354",
     "A_Name_Ch": "棉頭絹猴",
     "A_Location": "熱帶雨林室內館(穿山甲館)",
     "A_Name_En": "Cotton top tamarin",
@@ -3388,6 +3615,7 @@
     "A_Pic02_URL": "https://www.zoo.gov.tw/iTAP/03_Animals/PangolinDome/CottonTopTamarin/CottonTopTamarin_2.jpg"
   },
   {
+    "A_Id": "A0355",
     "A_Name_Ch": "阿氏夜猴",
     "A_Location": "熱帶雨林室內館(穿山甲館)",
     "A_Name_En": "Azara's night monkey",
@@ -3402,6 +3630,7 @@
     "A_Pic02_URL": "https://www.zoo.gov.tw/iTAP/03_Animals/PangolinDome/AzaraNightMonkey/AzaraNightMonkey_2.jpg"
   },
   {
+    "A_Id": "A0356",
     "A_Name_Ch": "小懶猴",
     "A_Location": "熱帶雨林室內館(穿山甲館)",
     "A_Name_En": "Pygmy Slow Loris",
@@ -3412,10 +3641,11 @@
     "A_Distribution": "牠們主要分布於越南、寮國、柬埔寨地區。",
     "A_Habitat": "森林",
     "A_Feature": "體長約21-23cm，體重約1kg。尾極短，隱於毛被之中。從鼻部向上伸展到兩眼間有一白色條紋至額部終止。背毛橙紅褐色。腹面灰白色，足後第二趾具爪，前肢第二指短於其餘各指。",
-    "A_Pic01_URL": "",
-    "A_Pic02_URL": ""
+    "A_Pic01_URL": "https://i2.kknews.cc/SIG=1qlci96/191r000050332p98nr53.jpg",
+    "A_Pic02_URL": "https://i1.kknews.cc/SIG=fap6jb/192000004po53917782q.jpg"
   },
   {
+    "A_Id": "A0357",
     "A_Name_Ch": "粗尾侏儒狐猴",
     "A_Location": "熱帶雨林室內館(穿山甲館)",
     "A_Name_En": "Fat-tailed Dwarf Lemur",
@@ -3430,6 +3660,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0358",
     "A_Name_Ch": "蜜熊(未展出)",
     "A_Location": "",
     "A_Name_En": "Kinkajou? ",
@@ -3444,6 +3675,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/PangolinDome/Kinkajou/Kinkajou%20_Pic02.jpg"
   },
   {
+    "A_Id": "A0359",
     "A_Name_Ch": "金色箭毒蛙",
     "A_Location": "熱帶雨林室內館(穿山甲館)",
     "A_Name_En": "Golden Poison Frog",
@@ -3458,6 +3690,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/PangolinDome/GoldenPoisonFrog/GoldenPoisonFrog_Pic02.jpg"
   },
   {
+    "A_Id": "A0360",
     "A_Name_Ch": "黃帶箭毒蛙",
     "A_Location": "熱帶雨林室內館(穿山甲館)",
     "A_Name_En": "Yellow-headed Poison Frog",
@@ -3472,6 +3705,7 @@
     "A_Pic02_URL": ""
   },
   {
+    "A_Id": "A0361",
     "A_Name_Ch": "迷彩箭毒蛙",
     "A_Location": "熱帶雨林室內館(穿山甲館)",
     "A_Name_En": "Green and Black Poison-arrow Frog",
@@ -3486,6 +3720,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/PangolinDome/BlackAndGreenPoisonDartFrog/BlackAndGreenPoisonDartFrog_Pic02.jpg"
   },
   {
+    "A_Id": "A0362",
     "A_Name_Ch": "鈷藍箭毒蛙",
     "A_Location": "熱帶雨林室內館(穿山甲館)",
     "A_Name_En": "Dyeing Poison-arrow Frog",
@@ -3500,6 +3735,7 @@
     "A_Pic02_URL": "http://www.zoo.gov.tw/iTAP/03_Animals/PangolinDome/BluePoisonDartFrog/BluePoisonDartFrog%20_Pic02.jpg"
   },
   {
+    "A_Id": "A0363",
     "A_Name_Ch": "象魚",
     "A_Location": "熱帶雨林室內館(穿山甲館)",
     "A_Name_En": "Arapaima",
