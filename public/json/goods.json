@@ -1,0 +1,66 @@
+[
+  {
+    "G_Id": "G001",
+    "G_Name": "成人票券",
+    "G_Unit": "張",
+    "G_Price": 200,
+    "G_IsStock": 1,
+    "G_Img": "adultticket"
+  },
+  {
+    "G_Id": "G002",
+    "G_Name": "孩童票券",
+    "G_Unit": "張",
+    "G_Price": 100,
+    "G_IsStock": 1,
+    "G_Img": "childticket"
+  },
+  {
+    "G_Id": "G003",
+    "G_Name": "銀髮票券",
+    "G_Unit": "張",
+    "G_Price": 120,
+    "G_IsStock": 1,
+    "G_Img": "olderticket"
+  },
+  {
+    "G_Id": "G004",
+    "G_Name": "學生票券",
+    "G_Unit": "張",
+    "G_Price": 150,
+    "G_IsStock": 1,
+    "G_Img": "studentticket"
+  },
+  {
+    "G_Id": "G005",
+    "G_Name": "熊貓娃娃",
+    "G_Unit": "隻",
+    "G_Price": 350,
+    "G_IsStock": 1,
+    "G_Img": "pandaDoll"
+  },
+  {
+    "G_Id": "G006",
+    "G_Name": "動物明信片(隨機)",
+    "G_Unit": "張",
+    "G_Price": 10,
+    "G_IsStock": 1,
+    "G_Img": "animalcard"
+  },
+  {
+    "G_Id": "G007",
+    "G_Name": "動物COS裝",
+    "G_Unit": "套",
+    "G_Price": 500,
+    "G_IsStock": 1,
+    "G_Img": "COS"
+  },
+  {
+    "G_Id": "G008",
+    "G_Name": "動物認養",
+    "G_Unit": "次",
+    "G_Price": 50,
+    "G_IsStock": 1,
+    "G_Img": "heart"
+  }
+ ]

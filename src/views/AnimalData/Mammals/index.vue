@@ -3,13 +3,13 @@
     <ul class="mammalData">
       <router-link
         tag="li"
-        :to="'animalData/mammals/animalDetail/' + item.A_Id"
+        :to="'/animalData/mammals/' + item.A_Id"
         v-for="item in mammalData"
         :key="item.A_Id"
         class="mammalCard"
       >
-        <img :src="item.A_Pic01_URL" alt="" />
-        <h5>{{ item.A_Name_Ch }}</h5>
+        <!-- <img :src="item.A_Pic01_URL" alt="" /> -->
+        <h5 class="name">{{ item.A_Name_Ch }}</h5>
       </router-link>
     </ul>
     <AnimalDetail />
@@ -41,10 +41,16 @@ export default {
 
 <style lang="scss" scoped>
 .mammals {
+  display: flex;
   .mammalData {
+    padding: 15px 5px;
     display: flex;
+    flex-direction: column;
+    max-height: 60vh;
+    max-width: 20vw;
+    overflow: auto;
     .mammalCard {
-      width: 23%;
+      width: 70%;
       &:hover {
         cursor: pointer;
         color: darkred;
@@ -52,9 +58,12 @@ export default {
         font-weight: 900;
       }
       img {
-        border-radius: 50%;
+        border-radius: 20%;
         box-shadow: inset 10px 5px #000;
-        width: 100%;
+        width: 30%;
+      }
+      .name {
+        font-size: 1.5rem;
       }
     }
   }

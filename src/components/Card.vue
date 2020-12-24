@@ -1,24 +1,40 @@
 <template>
   <div class="card">
-    <img
-      src="https://www-ws.gov.taipei/001/Upload/432/relpic/10162/8319840/8c2dcf48-a98b-4f4a-99a4-3d2c00fde32d.jpg"
-      alt=""
-    />
-    <h2 class="title">測試中</h2>
+    <img :src="require(`../assets/img/${cardData.G_Img}.jpg`)" alt="" />
+    <h2 class="title">{{ cardData.G_Name }}</h2>
     <!-- <div>text</div> -->
     <hr />
-    <el-button type="success">放入購物車</el-button>
+    <el-button type="success" @click="joinCart(cardData.G_Id)"
+      >放入購物車</el-button
+    >
   </div>
 </template>
 
 <script>
+import { mapMutations, mapState } from "vuex";
 export default {
   name: "Card",
-  props: [],
+  props: ["cardData"],
   data() {
     return {
       name: "Card",
     };
+  },
+  computed: {
+    ...mapState(["allGoods"]),
+  },
+  methods: {
+    ...mapMutations(["plusCart"]),
+    joinCart() {
+      let plusItem = {};
+      plusItem = this.allGoods.find((item) => {
+        return item.G_Id == this.cardData.G_Id;
+      });
+      this.$store.commit("plusCart", plusItem);
+    },
+  },
+  created() {
+    console.log(this.cardData);
   },
 };
 </script>

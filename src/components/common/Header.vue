@@ -9,7 +9,9 @@
       <ul>
         <router-link tag="li" to="/zone">館區介紹</router-link>
         <!-- <router-link to="/animalData">動物影音</router-link> -->
-        <router-link tag="li" to="/animalData">動物百科</router-link>
+        <router-link tag="li" to="/animalData/mammals/A0001"
+          >動物百科</router-link
+        >
         <router-link tag="li" to="/onlineBuy">線上購票</router-link>
       </ul>
     </div>

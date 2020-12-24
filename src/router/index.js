@@ -33,6 +33,7 @@ const routes = [
   },
   {
     path: "/animalData",
+    // redirect:"/animalData/mammals/A0001",
     component: AnimalData,
     children: [
       {
