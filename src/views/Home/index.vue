@@ -1,8 +1,8 @@
 <template>
   <div class="index">
-    <Header />
+    <!-- <Header /> -->
     <Carousel />
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>
 
@@ -20,4 +20,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.index {
+  height: 100vh;
+  position: relative;
+}
+</style>

@@ -13,14 +13,42 @@
           >動物百科</router-link
         >
         <router-link tag="li" to="/onlineBuy">線上購票</router-link>
+        <el-badge :value="totalNum" class="item">
+          <router-link tag="li" to="/cart">
+            <i class="fas fa-cart-plus"></i>
+          </router-link>
+        </el-badge>
       </ul>
     </div>
   </div>
 </template>
 
 <script>
+import { mapState } from "vuex";
+import { setLocal, getLocal } from "@/plugins/local";
+// import { DB_cartList } from "@/db/cartList";
 export default {
   name: "Header",
+  data() {
+    return {
+      localCart: [],
+    };
+  },
+  computed: {
+    ...mapState(["cartList"]),
+    totalNum() {
+      let total = 0;
+      this.localCart.forEach((item) => {
+        console.log(item);
+        total += item.G_num;
+        console.log(total);
+      });
+      return total;
+    },
+  },
+  created() {
+    this.localCart = JSON.parse(getLocal("cartList")) || [];
+  },
 };
 </script>
 
@@ -39,6 +67,8 @@ export default {
     }
   }
   #right_header {
+    display: flex;
+    align-items: center;
     ul {
       display: flex;
       li {
@@ -47,6 +77,10 @@ export default {
         list-style: none;
         font-size: 1.2rem;
         color: #fff;
+        .item {
+          margin-top: 10px;
+          margin-right: 40px;
+        }
       }
     }
   }

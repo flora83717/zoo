@@ -12,6 +12,7 @@
 
 <script>
 import { mapMutations, mapState } from "vuex";
+import { getLocal } from "@/plugins/local";
 export default {
   name: "Card",
   props: ["cardData"],
@@ -21,20 +22,21 @@ export default {
     };
   },
   computed: {
-    ...mapState(["allGoods"]),
+    ...mapState(["allGoods", "cartList"]),
   },
   methods: {
     ...mapMutations(["plusCart"]),
-    joinCart() {
+    joinCart(id) {
+      //欲購商品
       let plusItem = {};
+      // 找出欲購商品
       plusItem = this.allGoods.find((item) => {
-        return item.G_Id == this.cardData.G_Id;
+        // return item.G_Id == this.cardData.G_Id;
+        return item.G_Id == id;
       });
+
       this.$store.commit("plusCart", plusItem);
     },
-  },
-  created() {
-    console.log(this.cardData);
   },
 };
 </script>
@@ -44,8 +46,7 @@ export default {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 30%;
-  // border: 0px solid #000;
+  width: 23%;
   box-shadow: 0px 0px 9px #1b3302;
   margin-top: 7rem;
   img {
@@ -54,7 +55,7 @@ export default {
   }
 
   .title {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: 800;
   }
 }

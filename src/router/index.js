@@ -11,6 +11,7 @@ import Birds from "@/views/AnimalData/Birds";
 import Osteichthyes from "@/views/AnimalData/Osteichthyes";
 import AnimalDetail from "@/views/AnimalData/AnimalDetail";
 import OnlineBuy from "@/views/OnlineBuy";
+import Cart from "@/views/Cart";
 
 Vue.use(VueRouter);
 
@@ -67,6 +68,10 @@ const routes = [
   {
     path: "/onlineBuy",
     component: OnlineBuy,
+  },
+  {
+    path: "/cart",
+    component: Cart,
   },
 ];
 

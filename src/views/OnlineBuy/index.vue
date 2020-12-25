@@ -1,7 +1,6 @@
 <template>
   <div class="onlinebuy">
     <Card :cardData="item" v-for="item in goods" :key="item.G_Id"></Card>
-    <el-button type="success" @click="gotoPay">前往結帳</el-button>
   </div>
 </template>
 
@@ -33,5 +32,6 @@ export default {
 .onlinebuy {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 </style>
