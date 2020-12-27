@@ -1,18 +1,20 @@
 <template>
-  <div class="osteichthyes">
-    <ul class="osteichthyesData">
-      <router-link
-        tag="li"
-        :to="'/animalData/osteichthyes/' + item.A_Id"
-        v-for="item in osteichthyesData"
-        :key="item.A_Id"
-        class="osteichthyesCard"
-      >
-        <!-- <img :src="item.A_Pic01_URL" alt="" /> -->
-        <h5 class="name">{{ item.A_Name_Ch }}</h5>
-      </router-link>
-    </ul>
-    <AnimalDetail />
+  <div class="animalDetails">
+    <div class="osteichthyes">
+      <ul class="osteichthyesData">
+        <router-link
+          tag="li"
+          :to="'/animalData/osteichthyes/' + item.A_Id"
+          v-for="item in osteichthyesData"
+          :key="item.A_Id"
+          class="osteichthyesCard"
+        >
+          <!-- <img :src="item.A_Pic01_URL" alt="" /> -->
+          <h5 class="name">{{ item.A_Name_Ch }}</h5>
+        </router-link>
+      </ul>
+      <AnimalDetail />
+    </div>
   </div>
 </template>
 

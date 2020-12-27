@@ -1,18 +1,20 @@
 <template>
-  <div class="mammals">
-    <ul class="mammalData">
-      <router-link
-        tag="li"
-        :to="'/animalData/mammals/' + item.A_Id"
-        v-for="item in mammalData"
-        :key="item.A_Id"
-        class="mammalCard"
-      >
-        <!-- <img :src="item.A_Pic01_URL" alt="" /> -->
-        <h5 class="name">{{ item.A_Name_Ch }}</h5>
-      </router-link>
-    </ul>
-    <AnimalDetail />
+  <div class="animalDetails">
+    <div class="mammals">
+      <ul class="mammalData">
+        <router-link
+          tag="li"
+          :to="'/zoo/animalData/mammals/' + item.A_Id"
+          v-for="item in mammalData"
+          :key="item.A_Id"
+          class="mammalCard"
+        >
+          <!-- <img :src="item.A_Pic01_URL" alt="" /> -->
+          <h5 class="name">{{ item.A_Name_Ch }}</h5>
+        </router-link>
+      </ul>
+      <AnimalDetail />
+    </div>
   </div>
 </template>
 
@@ -43,19 +45,26 @@ export default {
 .mammals {
   display: flex;
   .mammalData {
+    width: 22%;
     padding: 15px 5px;
     display: flex;
     flex-direction: column;
-    max-height: 60vh;
+    max-height: 70vh;
     max-width: 20vw;
     overflow: auto;
     .mammalCard {
-      width: 70%;
+      padding:10px 0 5px 20px ;
+      background-color: #fcf8ec;
+      width: 100%;
       &:hover {
         cursor: pointer;
         color: darkred;
         font-size: 20px;
         font-weight: 900;
+      }
+
+      &:nth-child(2n){
+        background-color: #999b84;
       }
       img {
         border-radius: 20%;
@@ -63,7 +72,8 @@ export default {
         width: 30%;
       }
       .name {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        font-weight: 600;
       }
     }
   }

@@ -17,16 +17,13 @@ export default {
   name: "Carousel",
   data() {
     return {
-      carousel_bg: ["carousel1", "carousel2", "carousel3", "carousel4"],
+      carousel_bg: ["banner1", "carousel2", "carousel3", "carousel4"],
     };
   },
 };
 </script>
 
 <style>
-.el-carousel {
-  margin-top: 5rem;
-}
 
 .el-carousel__item h3 {
   color: #475669;

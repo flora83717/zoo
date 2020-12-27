@@ -5,7 +5,7 @@
     <div class="info">
       {{ szone.E_Info }}
     </div>
-    <div class="memo">{{ szone.E_Memo }}</div>
+    <!-- <div class="memo">{{ szone.E_Memo }}</div> -->
   </div>
 </template>
 
@@ -48,17 +48,18 @@ export default {
     border-radius: 50%;
   }
   .title {
-    width: 100%;
+    width: 70%;
     text-align: left;
     padding: 0 10px;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 600;
   }
   .info {
     width: 70%;
-    height: 50px;
+    // height: 50px;
     padding: 20px 10px;
     font-size: 1.5rem;
+    line-height: 35px;
   }
 
   .memo {

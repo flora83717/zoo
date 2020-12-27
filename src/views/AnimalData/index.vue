@@ -67,7 +67,7 @@ export default {
     font-size: 1.5rem;
     font-weight: bold;
     display: flex;
-    margin-top: 7rem;
+    margin-top: 3rem;
     width: 50%;
     height: 40px;
     border-bottom: 5px double #000;
@@ -80,6 +80,10 @@ export default {
         font-size: 1.7rem;
       }
     }
+  }
+
+  .animalDetails {
+    margin-top: 30px;
   }
 }
 </style>

@@ -16,11 +16,11 @@ export default {
 <style lang="scss" scoped>
 .footer {
   margin-top: 50px;
-  position: absolute;
-  bottom: 0;
+  // position: absolute;
+  // bottom: 0;
   background-color: #a3c470;
-  width: 100vw;
-  height: 5rem;
+  width: 100%;
+  // height: 5rem;
   font-weight: 700;
   padding: 3rem 0;
   div {

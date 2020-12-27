@@ -12,66 +12,72 @@ import Osteichthyes from "@/views/AnimalData/Osteichthyes";
 import AnimalDetail from "@/views/AnimalData/AnimalDetail";
 import OnlineBuy from "@/views/OnlineBuy";
 import Cart from "@/views/Cart";
+import Zoo from "@/views/Zoo";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/home",
-    component: Home,
-  },
-  {
-    path: "/",
-    redirect: "/home",
-  },
-  {
-    path: "/zone",
-    component: Zone,
-  },
-  {
-    path: "/szone/:id",
-    component: SZone,
-  },
-  {
-    path: "/animalData",
-    // redirect:"/animalData/mammals/A0001",
-    component: AnimalData,
+    path: "/zoo",
+    component: Zoo,
     children: [
       {
-        path: "mammals/:id",
-        component: Mammals,
-        // children: [{ path: "animalDetail/:id", component: AnimalDetail }],
+        path: "home",
+        component: Home,
       },
       {
-        path: "reptiles/:id",
-        component: Reptiles,
-        // children: [{ path: "animalDetail/:id", component: AnimalDetail }],
+        path: "zone",
+        component: Zone,
       },
       {
-        path: "amphibians/:id",
-        component: Amphibians,
-        // children: [{ path: "animalDetail/:id", component: AnimalDetail }],
+        path: "szone/:id",
+        component: SZone,
       },
       {
-        path: "birds/:id",
-        component: Birds,
-        // children: [{ path: "animalDetail/:id", component: AnimalDetail }],
+        path: "animalData",
+        // redirect:"/animalData/mammals/A0001",
+        component: AnimalData,
+        children: [
+          {
+            path: "mammals/:id",
+            component: Mammals,
+            // children: [{ path: "animalDetail/:id", component: AnimalDetail }],
+          },
+          {
+            path: "reptiles/:id",
+            component: Reptiles,
+            // children: [{ path: "animalDetail/:id", component: AnimalDetail }],
+          },
+          {
+            path: "amphibians/:id",
+            component: Amphibians,
+            // children: [{ path: "animalDetail/:id", component: AnimalDetail }],
+          },
+          {
+            path: "birds/:id",
+            component: Birds,
+            // children: [{ path: "animalDetail/:id", component: AnimalDetail }],
+          },
+          {
+            path: "osteichthyes/:id",
+            component: Osteichthyes,
+            // children: [{ path: "animalDetail/:id", component: AnimalDetail }],
+          },
+        ],
       },
       {
-        path: "osteichthyes/:id",
-        component: Osteichthyes,
-        // children: [{ path: "animalDetail/:id", component: AnimalDetail }],
+        path: "onlineBuy",
+        component: OnlineBuy,
+      },
+      {
+        path: "cart",
+        component: Cart,
       },
     ],
   },
-
   {
-    path: "/onlineBuy",
-    component: OnlineBuy,
-  },
-  {
-    path: "/cart",
-    component: Cart,
+    path: "/",
+    redirect: "/zoo/home",
   },
 ];
 

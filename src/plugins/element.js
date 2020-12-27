@@ -2,12 +2,16 @@ import Vue from "vue";
 import {
   Button,
   Row,
+  // Container,
   Col,
   Card,
   Carousel,
   CarouselItem,
   InputNumber,
   Badge,
+  // Header,
+  // Footer,
+  // Main
 } from "element-ui";
 import lang from "element-ui/lib/locale/lang/zh-TW";
 import locale from "element-ui/lib/locale";
@@ -22,3 +26,7 @@ Vue.use(Carousel);
 Vue.use(CarouselItem);
 Vue.use(InputNumber);
 Vue.use(Badge);
+// Vue.use(Container);
+// Vue.use(Header);
+// Vue.use(Footer);
+// Vue.use(Main);

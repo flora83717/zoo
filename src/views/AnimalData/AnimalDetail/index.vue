@@ -5,24 +5,28 @@
     </div>
     <div class="rightData">
       <ul>
-        <span>中文學名：</span>
-        <li>{{ animalInfo.A_Name_Ch }}</li>
-        <span>英文學名：</span>
-        <li>{{ animalInfo.A_Name_En }}</li>
-        <span>類別(目)：</span>
-        <li>{{ animalInfo.A_Order }}</li>
-        <span>類別(類)：</span>
-        <li>{{ animalInfo.A_Class }}</li>
-        <span>類別(門)：</span>
-        <li>{{ animalInfo.A_Phylum }}</li>
-        <span>生活環境：</span>
-        <li>{{ animalInfo.A_Habitat }}</li>
-        <span>外表特徵：</span>
-        <li>{{ animalInfo.A_Feature }}</li>
-        <span>活動區域：</span>
-        <li>{{ animalInfo.A_Distribution }}</li>
-        <span>館區：</span>
-        <li>{{ animalInfo.A_Location }}</li>
+        <div class="shortInfo">
+          <span>中文學名：</span>
+          <li>{{ animalInfo.A_Name_Ch }}</li>
+          <span>英文學名：</span>
+          <li>{{ animalInfo.A_Name_En }}</li>
+          <span>類別(目)：</span>
+          <li>{{ animalInfo.A_Order }}</li>
+          <span>類別(類)：</span>
+          <li>{{ animalInfo.A_Class }}</li>
+          <span>類別(門)：</span>
+          <li>{{ animalInfo.A_Phylum }}</li>
+          <span>館區：</span>
+          <li>{{ animalInfo.A_Location }}</li>
+        </div>
+        <div class="longInfo">
+          <span>生活環境：</span>
+          <li class="env">{{ animalInfo.A_Habitat }}</li>
+          <span>外表特徵：</span>
+          <li class="feature">{{ animalInfo.A_Feature }}</li>
+          <span>活動區域：</span>
+          <li class="distri">{{ animalInfo.A_Distribution }}</li>
+        </div>
       </ul>
     </div>
   </div>
@@ -83,18 +87,54 @@ export default {
   align-items: center;
   flex-direction: column;
   .leftImg {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
     img {
       width: 50%;
+      border-radius: 20px;
     }
   }
   .rightData {
-    width: 50%;
+    width: 85%;
     ul {
-      span {
-        font-weight: 900;
-        font-size: 1.2rem;
+      display: flex;
+      flex-direction: column;
+      // flex-wrap: wrap;
+      .shortInfo {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        span {
+          width: 200px;
+          color: #682c0e;
+          display: inline-block;
+          font-weight: 900;
+          font-size: 1.2rem;
+          margin: 20px 0;
+        }
+        li {
+          width: 220px;
+          padding: 0 0 0 10px;
+          line-height: 25px;
+        }
       }
-      li {
+
+      .longInfo {
+        span {
+          width: 180px;
+          color: #682c0e;
+          display: inline-block;
+          font-weight: 900;
+          font-size: 1.2rem;
+          margin: 20px 0;
+        }
+        li {
+          width: 80%;
+          padding: 0 0 0 10px;
+          line-height: 30px;
+        }
       }
     }
   }

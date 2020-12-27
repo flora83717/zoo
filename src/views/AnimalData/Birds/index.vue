@@ -1,18 +1,20 @@
 <template>
-  <div class="birds">
-    <ul class="birdData">
-      <router-link
-        tag="li"
-        :to="'/animalData/birds/' + item.A_Id"
-        v-for="item in birdData"
-        :key="item.A_Id"
-        class="birdCard"
-      >
-        <!-- <img :src="item.A_Pic01_URL" alt="" /> -->
-        <h5 class="name">{{ item.A_Name_Ch }}</h5>
-      </router-link>
-    </ul>
-    <AnimalDetail />
+  <div class="animalDetails">
+    <div class="birds">
+      <ul class="birdData">
+        <router-link
+          tag="li"
+          :to="'/animalData/birds/' + item.A_Id"
+          v-for="item in birdData"
+          :key="item.A_Id"
+          class="birdCard"
+        >
+          <!-- <img :src="item.A_Pic01_URL" alt="" /> -->
+          <h5 class="name">{{ item.A_Name_Ch }}</h5>
+        </router-link>
+      </ul>
+      <AnimalDetail />
+    </div>
   </div>
 </template>
 

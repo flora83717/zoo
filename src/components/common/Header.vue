@@ -7,14 +7,14 @@
     </div>
     <div id="right_header">
       <ul>
-        <router-link tag="li" to="/zone">館區介紹</router-link>
+        <router-link tag="li" to="/zoo/zone">館區介紹</router-link>
         <!-- <router-link to="/animalData">動物影音</router-link> -->
-        <router-link tag="li" to="/animalData/mammals/A0001"
+        <router-link tag="li" to="/zoo/animalData/mammals/A0001"
           >動物百科</router-link
         >
-        <router-link tag="li" to="/onlineBuy">線上購票</router-link>
+        <router-link tag="li" to="/zoo/onlineBuy">線上購票</router-link>
         <el-badge :value="totalNum" class="item">
-          <router-link tag="li" to="/cart">
+          <router-link tag="li" to="/zoo/cart">
             <i class="fas fa-cart-plus"></i>
           </router-link>
         </el-badge>
@@ -56,10 +56,8 @@ export default {
 #header {
   display: flex;
   justify-content: space-around;
-  position: fixed;
-  top: 0;
   background-color: #1b3302;
-  width: 100vw;
+  width: 100%;
   height: 5rem;
   #left_header {
     #logo {
