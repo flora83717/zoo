@@ -53,7 +53,7 @@ export default {
     max-width: 20vw;
     overflow: auto;
     .mammalCard {
-      padding:10px 0 5px 20px ;
+      padding: 10px 0 5px 20px;
       background-color: #fcf8ec;
       width: 100%;
       &:hover {
@@ -63,9 +63,10 @@ export default {
         font-weight: 900;
       }
 
-      &:nth-child(2n){
+      &:nth-child(2n) {
         background-color: #999b84;
       }
+
       img {
         border-radius: 20%;
         box-shadow: inset 10px 5px #000;

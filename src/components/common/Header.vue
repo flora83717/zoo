@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import { mapState } from "vuex";
+import { mapState, mapGetters } from "vuex";
 import { setLocal, getLocal } from "@/plugins/local";
 // import { DB_cartList } from "@/db/cartList";
 export default {
@@ -36,19 +36,24 @@ export default {
   },
   computed: {
     ...mapState(["cartList"]),
-    totalNum() {
-      let total = 0;
-      this.localCart.forEach((item) => {
-        console.log(item);
-        total += item.G_num;
-        console.log(total);
-      });
-      return total;
-    },
+    ...mapGetters(["totalNum"]),
+    // totalNum() {
+    //   let total = 0;
+    //   // this.localCart.forEach((item) => {
+    //   //   console.log(item);
+    //   //   total += item.G_num;
+    //   //   console.log(total);
+    //   // });
+    //   // return total;
+    //   this.cartList.forEach((item) => {
+    //     total += item.G_num;
+    //   });
+    //   return total;
+    // },
   },
-  created() {
-    this.localCart = JSON.parse(getLocal("cartList")) || [];
-  },
+  // created() {
+  //   this.localCart = JSON.parse(getLocal("cartList")) || [];
+  // },
 };
 </script>
 

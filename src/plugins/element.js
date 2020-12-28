@@ -9,6 +9,7 @@ import {
   CarouselItem,
   InputNumber,
   Badge,
+  Input,
   // Header,
   // Footer,
   // Main
@@ -26,6 +27,7 @@ Vue.use(Carousel);
 Vue.use(CarouselItem);
 Vue.use(InputNumber);
 Vue.use(Badge);
+Vue.use(Input);
 // Vue.use(Container);
 // Vue.use(Header);
 // Vue.use(Footer);

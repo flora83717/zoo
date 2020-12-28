@@ -4,7 +4,7 @@
       <ul class="osteichthyesData">
         <router-link
           tag="li"
-          :to="'/animalData/osteichthyes/' + item.A_Id"
+          :to="'/zoo/animalData/osteichthyes/' + item.A_Id"
           v-for="item in osteichthyesData"
           :key="item.A_Id"
           class="osteichthyesCard"
@@ -44,22 +44,29 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.mammals {
+.osteichthyes {
   display: flex;
-  .mammalData {
+  .osteichthyesData {
+    width: 22%;
     padding: 15px 5px;
     display: flex;
     flex-direction: column;
-    max-height: 60vh;
+    max-height: 70vh;
     max-width: 20vw;
     overflow: auto;
-    .mammalCard {
-      width: 70%;
+    .osteichthyesCard {
+      padding: 10px 0 5px 20px;
+      background-color: #fcf8ec;
+      width: 100%;
       &:hover {
         cursor: pointer;
         color: darkred;
         font-size: 20px;
         font-weight: 900;
+      }
+
+      &:nth-child(2n) {
+        background-color: #999b84;
       }
       img {
         border-radius: 20%;
@@ -67,7 +74,8 @@ export default {
         width: 30%;
       }
       .name {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        font-weight: 600;
       }
     }
   }

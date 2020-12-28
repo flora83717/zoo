@@ -4,7 +4,7 @@
       <ul class="amphibiansData">
         <router-link
           tag="li"
-          :to="'/animalData/amphibians/' + item.A_Id"
+          :to="'/zoo/animalData/amphibians/' + item.A_Id"
           v-for="item in amphibiansData"
           :key="item.A_Id"
           class="amphibiansCard"
@@ -47,19 +47,25 @@ export default {
 .amphibians {
   display: flex;
   .amphibiansData {
+    width: 22%;
     padding: 15px 5px;
     display: flex;
     flex-direction: column;
-    max-height: 60vh;
+    max-height: 70vh;
     max-width: 20vw;
     overflow: auto;
     .amphibiansCard {
-      width: 70%;
+      padding: 10px 0 5px 20px;
+      background-color: #fcf8ec;
+      width: 100%;
       &:hover {
         cursor: pointer;
         color: darkred;
         font-size: 20px;
         font-weight: 900;
+      }
+      &:nth-child(2n) {
+        background-color: #999b84;
       }
       img {
         border-radius: 20%;
@@ -67,7 +73,8 @@ export default {
         width: 30%;
       }
       .name {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        font-weight: 600;
       }
     }
   }

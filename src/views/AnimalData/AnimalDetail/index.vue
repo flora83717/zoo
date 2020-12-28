@@ -1,7 +1,13 @@
 <template>
   <div class="AnimalDetail">
     <div class="leftImg">
-      <img :src="animalInfo.A_Pic01_URL" :alt="animalInfo.A_Name_Ch" />
+      <img
+        :src="
+          animalInfo.A_Pic01_URL ||
+            'https://www.pezzaloan.com/static/media/no-data.ae27ef0d.svg'
+        "
+        :alt="animalInfo.A_Name_Ch"
+      />
     </div>
     <div class="rightData">
       <ul>
@@ -42,8 +48,7 @@ export default {
   },
   watch: {
     $route(to, from) {
-      // console.log(to);
-      // console.log(from);
+      // 找尋匹配路徑上id的資料
       const id = to.params.id;
       let res = [];
       this.$http.get("/json/animal.json").then(({ data }) => {

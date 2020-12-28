@@ -3,7 +3,9 @@
   <div class="animalClass">
     <ul class="class">
       <router-link
-        :to="'animalData/' + item.class_en_name + '/' + firstNumArr[i]"
+        :to="
+          '/zoo/animalData/' + item.class_en_name + '/' + firstNumArr[i].A_Id
+        "
         tag="li"
         v-for="(item, i) in animalClass"
         :key="item.class_id"
@@ -22,19 +24,22 @@ export default {
     return {
       animalClass: [],
       firstNumArr: [],
+      mammalData: {},
     };
   },
   created() {
+    // 獲取類名
     this.$http.get("/json/animalClass.json").then(({ data }) => {
       this.animalClass = data;
     });
-
+    // 獲取各類動物的第一筆資料當作首次展現
     this.$http.get("/json/animal.json").then(({ data }) => {
       this.firstNumArr.push(
         data.find((item) => {
           return item.A_Class == "哺乳綱";
         })
       );
+
       this.firstNumArr.push(
         data.find((item) => {
           return item.A_Class == "鳥綱";
