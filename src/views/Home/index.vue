@@ -3,10 +3,8 @@
     <Carousel />
     <div class="news">
       <h3 class="title">最新消息</h3>
-      <div class=cards>
-        <IndexCard />
-        <IndexCard />
-        <IndexCard />
+      <div class="cards">
+        <IndexCard v-for="item in newsArr" :key="item.A_Id" :new="item" />
       </div>
     </div>
     <div class="zoneIntroduce">
@@ -22,9 +20,19 @@ import Carousel from "@/components/Carousel.vue";
 import IndexCard from "@/components/IndexCard.vue";
 export default {
   name: "home",
+  data() {
+    return {
+      newsArr: [],
+    };
+  },
   components: {
     Carousel,
     IndexCard,
+  },
+  created() {
+    this.$http.get("/json/news.json").then(({ data }) => {
+      this.newsArr = data;
+    });
   },
 };
 </script>

@@ -12,6 +12,7 @@ import Osteichthyes from "@/views/AnimalData/Osteichthyes";
 import AnimalDetail from "@/views/AnimalData/AnimalDetail";
 import OnlineBuy from "@/views/OnlineBuy";
 import Cart from "@/views/Cart";
+import News from "@/views/News";
 import Zoo from "@/views/Zoo";
 
 Vue.use(VueRouter);
@@ -72,6 +73,10 @@ const routes = [
       {
         path: "cart",
         component: Cart,
+      },
+      {
+        path: "news/:id",
+        component: News,
       },
     ],
   },
