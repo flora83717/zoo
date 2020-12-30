@@ -62,10 +62,11 @@
 <script>
 import { mapGetters, mapState } from "vuex";
 import CartItem from "@/components/CartItem";
-import { getLocal } from "@/plugins/local";
+import { getLocal, removeLocal } from "@/plugins/local";
 // import { DB_cartList } from "@/db/cartList";
 export default {
   name: "Cart",
+  inject: ["reload"],
   data() {
     return {
       // DoBuy: false,
@@ -83,18 +84,10 @@ export default {
   },
   methods: {
     pay() {
-      alert("結帳完成");
+      removeLocal("cartList");
+      this.reload();
+      console.log("結帳完成");
     },
-  },
-  mounted() {
-    // console.log(this.totalFee);
-    // this.cartList = JSON.parse(getLocal("cartList"));
-    // console.log(this.cartList);
-    // if (!this.cartList) {
-    //   this.DoBuy = false;
-    // } else if (this.cartList) {
-    //   this.DoBuy = true;
-    // }
   },
 };
 </script>

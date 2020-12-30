@@ -2,7 +2,12 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: Microsoft JhengHei, aril, Arial, "Helvetica Neue", Helvetica,
+    sans-serif;
+  font-size: 5px;
+}
+
 body {
   background-color: #f2efea;
-
 }

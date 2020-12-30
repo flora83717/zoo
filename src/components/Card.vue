@@ -41,38 +41,39 @@ export default {
 
 <style lang="scss" scoped>
 .card {
+  border: 3px solid rgba(36, 61, 8, 0.678);
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  // flex-wrap: wrap;
-  height: 270px;
+  // flex-direction: column;
+  // height: 270px;
   width: 23%;
-  box-shadow: 0px 0px 5px #1b3302;
+  // box-shadow: 0px 0px 5px #1b3302;
   margin-top: 7rem;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
   img {
     width: 100%;
     height: 100%;
-    padding-bottom: 10px;
   }
 
   .title {
-    font-size: 1.6rem;
-    font-weight: 800;
+    font-size: 1.3rem;
+    font-weight: 700;
     text-align: center;
+    padding: 2rem;
   }
 
   .el-button {
-    border-radius: 10px;
+    // border-radius: 10px;
+    width: 100%;
     span {
       display: inline-block;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     }
   }
 
   .el-button--success {
-    background-color: #487134de;
+    background-color: #4e962a7e;
   }
 }
 </style>

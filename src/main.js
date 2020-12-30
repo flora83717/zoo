@@ -10,6 +10,16 @@ import "./assets/css/common/common.css";
 
 Vue.config.productionTip = false;
 Vue.prototype.$http = axios;
+// 響應式調整
+var c = () => {
+  let w = document.documentElement.clientWidth;
+  let n = 20 * (w / 320) > 40 ? 40 + "px" : 20 * (w / 320) + "px";
+  document.documentElement.style.fontSize = n;
+};
+
+window.addEventListener("load", c);
+window.addEventListener("resize", c);
+
 new Vue({
   router,
   store,
