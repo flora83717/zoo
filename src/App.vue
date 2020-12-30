@@ -15,5 +15,6 @@ export default {
 <style lang="scss" scoped>
   #app {
     margin: 0 auto;
+  
   }
 </style>

@@ -1,17 +1,19 @@
 <template>
   <div class="home">
     <Carousel />
+     <div class="zoneIntroduce">
+      <h5 class="title">管區介紹</h5>
+      <!-- <img src="https://www.zoo.gov.tw/images/map.png" alt=""> -->
+      <div class="bg"></div>
+    </div>
+    <!-- 最新消息 -->
     <div class="news">
       <h3 class="title">最新消息</h3>
       <div class="cards">
         <IndexCard v-for="item in newsArr" :key="item.A_Id" :new="item" />
       </div>
     </div>
-    <div class="zoneIntroduce">
-      <h5 class="title">管區介紹</h5>
-      <!-- <img src="https://www.zoo.gov.tw/images/map.png" alt=""> -->
-      <div class="bg"></div>
-    </div>
+   
   </div>
 </template>
 
@@ -39,20 +41,21 @@ export default {
 
 <style lang="scss" scoped>
 .home {
+  max-width: 1380px;
+  margin: 0 auto;
   .news {
-    margin: 0 auto;
-    // display:flex ;
+    margin: 2rem auto;
     position: relative;
-    z-index: 999;
-    // margin-top: -50px;
-    width: 90%;
-    height: 380px;
-    background-color: #f4f5f4d2;
+    // width: 90%;
+    // height: 380px;
 
     .title {
       text-align: center;
       font-size: 1.5rem;
       font-weight: 800;
+      background-color: #aa89768e;
+      margin-bottom: 20px;
+      padding: 15px 10px;
     }
     .cards {
       display: flex;

@@ -53,18 +53,15 @@ export default {
 .IndexCard {
   cursor: pointer;
   display: flex;
-  box-shadow: 10px 10px 5px rgba(142, 156, 64, 0.61);
+  // box-shadow: 10px 10px 5px rgba(142, 156, 64, 0.61);
   flex-direction: column;
   align-items: center;
-  // border: 2px soild #000;
   max-width: 18%;
   img {
-    border-radius: 20px;
     width: 100%;
   }
   .cardbody {
     background-color: rgb(162, 184, 184);
-    //  white-space : wrap;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -90,7 +87,7 @@ export default {
   }
   &:hover {
     max-width: 20%;
-    box-shadow: 10px 10px 5px rgba(255, 225, 58, 0.637);
+    // box-shadow: 10px 10px 5px rgba(255, 225, 58, 0.637);
   }
 }</style
 >>
