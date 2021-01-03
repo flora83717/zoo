@@ -5,7 +5,7 @@
     "G_Unit": "張",
     "G_Price": 200,
     "G_IsStock": 1,
-    "G_Img": "adultticket"
+    "G_Img": "ticket"
   },
   {
     "G_Id": "G002",
@@ -13,7 +13,7 @@
     "G_Unit": "張",
     "G_Price": 100,
     "G_IsStock": 1,
-    "G_Img": "childticket"
+    "G_Img": "ticket"
   },
   {
     "G_Id": "G003",
@@ -21,7 +21,7 @@
     "G_Unit": "張",
     "G_Price": 120,
     "G_IsStock": 1,
-    "G_Img": "olderticket"
+    "G_Img": "ticket"
   },
   {
     "G_Id": "G004",
@@ -29,7 +29,7 @@
     "G_Unit": "張",
     "G_Price": 150,
     "G_IsStock": 1,
-    "G_Img": "studentticket"
+    "G_Img": "ticket"
   },
   {
     "G_Id": "G005",
@@ -37,7 +37,7 @@
     "G_Unit": "隻",
     "G_Price": 350,
     "G_IsStock": 1,
-    "G_Img": "pandaDoll"
+    "G_Img": "panda"
   },
   {
     "G_Id": "G006",
@@ -45,7 +45,7 @@
     "G_Unit": "張",
     "G_Price": 10,
     "G_IsStock": 1,
-    "G_Img": "animalcard"
+    "G_Img": "cards"
   },
   {
     "G_Id": "G007",
@@ -53,7 +53,7 @@
     "G_Unit": "套",
     "G_Price": 500,
     "G_IsStock": 1,
-    "G_Img": "COS"
+    "G_Img": "cos"
   },
   {
     "G_Id": "G008",

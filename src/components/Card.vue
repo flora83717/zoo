@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <img :src="require(`../assets/img/${cardData.G_Img}.jpg`)" alt="" />
+    <img :src="require(`../assets/img/${cardData.G_Img}.png`)" alt="" />
     <h3 class="title">{{ cardData.G_Name }}</h3>
 
     <el-button type="success" @click="joinCart(cardData.G_Id)"

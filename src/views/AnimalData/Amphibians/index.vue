@@ -9,7 +9,6 @@
           :key="item.A_Id"
           class="amphibiansCard"
         >
-          <!-- <img :src="item.A_Pic01_URL" alt="" /> -->
           <h5 class="name">{{ item.A_Name_Ch }}</h5>
         </router-link>
       </ul>
@@ -46,13 +45,13 @@ export default {
 <style lang="scss" scoped>
 .amphibians {
   display: flex;
+   width: 100%;
   .amphibiansData {
-    width: 22%;
+    max-width: 320px;
     padding: 15px 5px;
     display: flex;
     flex-direction: column;
-    max-height: 70vh;
-    max-width: 20vw;
+    max-height: 100vh;
     overflow: auto;
     .amphibiansCard {
       padding: 10px 0 5px 20px;

@@ -13,7 +13,7 @@ Vue.prototype.$http = axios;
 // 響應式調整
 var c = () => {
   let w = document.documentElement.clientWidth;
-  let n = 20 * (w / 320) > 40 ? 40 + "px" : 20 * (w / 320) + "px";
+  let n = 16 * (w / 320) > 20 ? 20 + "px" :16 * (w / 320) + "px";
   document.documentElement.style.fontSize = n;
 };
 

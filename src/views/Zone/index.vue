@@ -5,6 +5,7 @@
       <div class="zone">
         <div class="left-side">
           <h2 class="zoneName">戶外館</h2>
+          <div class="bg"></div>
           <img :src="require(`../../assets/img/outdoor.png`)" alt="戶外館" />
         </div>
         <ul class="right-side">
@@ -20,6 +21,7 @@
       <div class="zone">
         <div class="left-side">
           <h2 class="zoneName">室內館</h2>
+          <div class="bg"></div>
           <img :src="require(`../../assets/img/indoor.png`)" alt="室內館" />
         </div>
 
@@ -36,6 +38,7 @@
       <div class="zone">
         <div class="left-side">
           <h2 class="zoneName">特展區</h2>
+          <div class="bg"></div>
           <img
             :src="require(`../../assets/img/specialzone2.png`)"
             alt="特展區"
@@ -93,14 +96,18 @@ export default {
 
 <style lang="scss" scoped>
 .zones {
+  margin: 0 auto;
+  max-width: 1380px;
   display: flex;
   flex-direction: column;
   h1 {
+    font-family: Microsoft JhengHeis;
     width: 100%;
+    padding: 1.5rem 0;
     font-size: 2rem;
     color: rgb(94, 90, 47);
     font-weight: 700;
-    border-bottom: 3px double #af6b58;
+    border-bottom: 10px double #af6b58;
     margin: 3rem;
   }
 
@@ -110,58 +117,76 @@ export default {
     align-items: center;
 
     .zone {
-      padding: 2rem;
-      border-radius: 20px;
+      padding: 1.5rem;
       margin: 0 10px;
-      width: 80%;
+      width: 90%;
       display: flex;
       margin: 20px 0;
+    
+    &:nth-child(2) {
+      flex-direction: row-reverse;
+      .left-side {
+        position: relative;
+        left: -50px;
+        align-items: flex-end;
 
-      &:nth-child(1) {
-        background-color: #cbbcb1;
-        background-image: url("../../assets/img/outdoor.png");
-        background: #cbbcb1a3;;
+        .bg {
+          height: 50px;
+          background-color: rgba(59, 32, 155, 0.514);
+        }
       }
 
-      &:nth-child(2) {
-        background-color: #af6b58;
-      }
 
-      &:nth-child(3) {
-        background-color: #999b84;
+      .right-side {
+        position: relative;
+        left: 20px;
       }
+    }
+    
 
       .left-side {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        position: relative;
+        left: 119px;
+
+        .bg {
+          position: relative;
+          left: -30px;
+          bottom: -30px;
+          width: 100%;
+          // height: 25%;
+          height: 50px;
+          background-color: #d4cb40b2;
+        }
         .zoneName {
-          font-size: 1.3rem;
+          font-size: 1.5rem;
           font-weight: 800;
-          
         }
         img {
-          width: 60%;
-          border-radius: 40%;
+          box-shadow: 2px -2px  5px #502b1c ;
+          width: 100%;
         }
       }
 
       .right-side {
-        width: 30%;
-        margin-top: 10px;
-        padding-left: 15px;
+        width: 50%;
+        margin: 0 0 0 20px;
+        background-color: rgba(11, 61, 11, 0.274);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         li {
           margin: 10px 0;
-          background: #645e5daf;
-          border: 2px solid #cbbcb1;
-          border-radius: 30px;
           cursor: pointer;
-          font-size: 1.2rem;
+          font-size: 1rem;
           font-weight: 700;
           padding: 5px 5px;
-          color:#f1f1f1;
+          color:#110b0b;
+          height: 20%;
           &:hover {
-            background: #532e1c;
+            color: #852642;
           }
         }
       }

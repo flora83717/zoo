@@ -61,7 +61,8 @@ export default {
 #header {
   display: flex;
   justify-content: space-around;
-  background-color: #1b3302;
+  background-color: #203608;
+  // background-color: transparent;
   width: 100%;
   height: 5rem;
   #left_header {

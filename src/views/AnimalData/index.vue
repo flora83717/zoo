@@ -68,16 +68,20 @@ export default {
 
 <style lang="scss" scoped>
 .animalClass {
+  margin: 0 auto;
+  width: 1380px;
+  max-width: 1380px;
   .class {
     font-size: 1.5rem;
     font-weight: bold;
     display: flex;
     margin-top: 3rem;
-    width: 50%;
+    width: 70%;
     height: 40px;
+    padding: 3rem 0;
     border-bottom: 5px double #000;
     li {
-      padding: 0 10px;
+      padding: 0 2rem;
 
       &:hover {
         cursor: pointer;
@@ -88,7 +92,7 @@ export default {
   }
 
   .animalDetails {
-    margin-top: 30px;
+    margin-top: 70px;
   }
 }
 </style>

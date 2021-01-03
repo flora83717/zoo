@@ -1,10 +1,10 @@
 <template>
-  <el-carousel indicator-position="outside" height="360px">
+  <el-carousel indicator-position="outside">
     <el-carousel-item
       v-for="item in carousel_bg"
       :key="item"
       :style="{
-        backgroundImage: `url(${require(`../assets/img/${item}.jpg`)})`,
+        backgroundImage: `url(${require(`../assets/img/animals/${item}.jpg`)})`,
       }"
     >
       <h3>{{ item }}</h3>
@@ -17,7 +17,7 @@ export default {
   name: "Carousel",
   data() {
     return {
-      carousel_bg: ["banner1", "carousel2", "carousel3", "carousel4"],
+      carousel_bg: ["koala2", "tiger"],
     };
   },
 };
@@ -25,20 +25,19 @@ export default {
 
 <style>
 
+.el-carousel__container {
+    height: 830px!important;
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
 .el-carousel__item h3 {
   color: #475669;
   font-size: 18px;
   opacity: 0.75;
   line-height: 300px;
   margin: 0;
-}
-
-.el-carousel__item:nth-child(2n) {
-  background-color: #99a9bf;
-}
-
-.el-carousel__item:nth-child(2n + 1) {
-  background-color: #d3dce6;
+  
 }
 
 .el-carousel__indicators--outside {

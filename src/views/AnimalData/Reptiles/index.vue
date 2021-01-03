@@ -44,13 +44,14 @@ export default {
 <style lang="scss" scoped>
 .reptiles {
   display: flex;
+  width: 100%;
   .reptilesData {
-    width: 22%;
+    max-width: 320px;
     padding: 15px 5px;
     display: flex;
     flex-direction: column;
-    max-height: 70vh;
-    max-width: 20vw;
+    max-height: 100vh;
+    // max-width: 20vw;
     overflow: auto;
     .reptilesCard {
       padding: 10px 0 5px 20px;
