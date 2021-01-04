@@ -43,20 +43,18 @@ export default {
 .card {
   border: 3px solid rgba(36, 61, 8, 0.678);
   display: flex;
-  justify-content: center;
-  // flex-direction: column;
-  // height: 270px;
-  width: 23%;
-  // box-shadow: 0px 0px 5px #1b3302;
+  // justify-content: center;
+  width: 30%;
   margin-top: 7rem;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
+  border-radius: 10px;
+  // border-top-left-radius: 10px;
   img {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 300px;
   }
 
   .title {
+    writing-mode:vertical-lr;
     font-size: 1.3rem;
     font-weight: 700;
     text-align: center;
@@ -64,9 +62,9 @@ export default {
   }
 
   .el-button {
-    // border-radius: 10px;
-    width: 100%;
+    width: 20%;
     span {
+      writing-mode:vertical-lr;
       display: inline-block;
       font-size: 1.2rem;
     }

@@ -1,7 +1,7 @@
 <template>
   <div class="onlinebuy">
     <h5>線上購票</h5>
-    <div class="card">
+    <div class="cards">
       <Card :cardData="item" v-for="item in goods" :key="item.G_Id"></Card>
     </div>
   </div>
@@ -32,7 +32,7 @@ export default {
 
 <style lang="scss" scoped>
 .onlinebuy {
-  width: 70%;
+  width: 80%;
   margin: 0 auto 3rem;
 
   h5 {
@@ -43,8 +43,7 @@ export default {
     border-bottom: 3px double #af6b58;
     margin: 3rem;
   }
-  .card {
-    // background-color: rgb(238, 188, 188);
+  .cards {
     display: flex;
     align-items: center;
     flex-wrap: wrap;

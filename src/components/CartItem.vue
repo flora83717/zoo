@@ -2,7 +2,7 @@
   <div class="cartItem">
     <ul>
       <li>
-        <img :src="require(`../assets/img/${cartData.G_Img}.jpg`)" alt="" />
+        <img :src="require(`../assets/img/${cartData.G_Img}.png`)" alt="" />
       </li>
       <li>{{ cartData.G_Name }}</li>
       <li>{{ cartData.G_Unit }}</li>

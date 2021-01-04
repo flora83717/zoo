@@ -29,6 +29,14 @@
       width: 80%;
     }
   }
+
+  // onlineBuy
+.cards {
+  .card {
+    width: 45%;
+    }
+}
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -61,14 +69,21 @@
       .zone {
         flex-wrap: wrap;
         .left-side {
-          width: 80%;
+          width: 80%!important;
         }
         .right-side {
-          width: 80%;
+          width: 80%!important;
         }
       }
     }
   }
+
+ // onlineBuy
+.cards {
+  .card {
+    width: 45%;
+    }
+}
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -101,17 +116,56 @@
       .zone {
         flex-wrap: wrap;
         .left-side {
-          width: 80%;
+          width: 80%!important;
         }
         .right-side {
-          width: 80%;
+          width: 80%!important;
         }
+      }
+    }
+  }
+
+  // onlineBuy
+.cards {
+  justify-content: center!important;
+  .card {
+    width: 85%;
+    }
+    margin-top: 3rem;
+}
+
+// cartlist
+  .cartList {
+    .cartLists {
+      .list {
+          .cartItem {
+            ul {
+              li {
+                .el-input-number {
+                  width: 100px;
+                  .el-input-number__decrease {
+                    width: 28px;
+                  }
+                  .el-input-number__increase {
+                    width: 28px;
+                  }
+
+                  .el-input {
+                    input {
+                      padding-left:27px;
+                      padding-right:27px;
+                    }
+                  }
+                }
+              }
+            }
+          }
       }
     }
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width:300px)  and (max-width: 576px) {
   // Home區
   .news {
     .cards {
@@ -140,13 +194,61 @@
         .zone {
           flex-wrap: wrap;
           .left-side {
-            width: 100%;
+            width: 100%!important;
           }
           .right-side {
-            width: 100%;
+            width: 100%!important;
           }
         }
       }
     }
   }
+
+   // onlineBuy
+.cards {
+  justify-content: center!important;
+  .card {
+    width: 85%;
+    }
+    margin-top: 3rem;
+}
+
+// cartlist
+.cartList {
+  .cartLists {
+    .list {
+        .cartItem {
+          ul {
+            li {
+              .el-input-number {
+                width: 80px;
+                .el-input-number__decrease {
+                  width: 20px;
+                }
+                .el-input-number__increase {
+                  width: 20px;
+                }
+
+                .el-input {
+                  input {
+                    padding-left:19px;
+                    padding-right:19px;
+                  }
+                }
+              }
+            }
+          }
+        }
+    }
+
+    .payment {
+      flex-wrap: wrap;
+      justify-content: center;
+      .fee {
+        margin: 25px 0 50px
+      }
+    }
+  }
+}
+
 }
