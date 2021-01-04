@@ -10,8 +10,12 @@ export default new Vuex.Store({
     allGoods: [],
     totalBuy: 0,
     isCartNull: true,
+    w: "",
   },
   mutations: {
+    getW(state, payload) {
+      state.w = payload;
+    },
     plusCart(state, payload) {
       // 購物車商品
       // let cartList = JSON.parse(getLocal("cartList")) || [];
@@ -85,6 +89,9 @@ export default new Vuex.Store({
       });
       console.log(totalfee);
       return totalfee;
+    },
+    WIDTH(state) {
+      return state.w - 0;
     },
   },
   actions: {},

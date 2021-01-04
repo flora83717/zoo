@@ -90,16 +90,6 @@ export default {
       }
     }
   }
-  .news {
-    padding: 9rem 7rem;
-    // margin: 2rem auto;
-    position: relative;
-    background-color: #5b994044;
-    .cards {
-      display: flex;
-      justify-content: space-around;
-    }
-  }
 
   .zoneIntroduce {
     .bg {
@@ -119,6 +109,17 @@ export default {
       background-repeat: no-repeat;
       background-position: center;
       z-index: 900;
+    }
+  }
+
+  .news {
+    padding: 9rem 7rem;
+    // margin: 2rem auto;
+    position: relative;
+    background-color: #5b994044;
+    .cards {
+      display: flex;
+      justify-content: space-around;
     }
   }
 }

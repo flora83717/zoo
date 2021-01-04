@@ -23,7 +23,6 @@ export default {
     this.$http.get("/json/goods.json").then(({ data }) => {
       this.$store.commit("getAllGoods", data);
       data.forEach((item) => {
-        // console.log(item);
         this.goods.push(item);
       });
     });

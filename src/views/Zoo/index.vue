@@ -1,8 +1,10 @@
 <template>
   <div id="zoo">
-    <Header />
-    <router-view />
-    <Footer />
+    <el-row>
+      <Header />
+      <router-view />
+      <Footer />
+    </el-row>
   </div>
 </template>
 

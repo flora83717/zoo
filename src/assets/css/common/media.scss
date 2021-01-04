@@ -7,13 +7,146 @@
 }
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
+  // Home區
+  .news {
+    .cards {
+      flex-wrap: wrap;
+      .IndexCard {
+        max-width: 40%;
+        padding: 20px 0;
+      }
+    }
+  }
+
+  .notice {
+    flex-wrap: wrap;
+    text-align: center;
+    ul {
+      width: 80%;
+      padding: 30px 0;
+    }
+    .bg {
+      width: 80%;
+    }
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  // Home區
+  .news {
+    .cards {
+      flex-wrap: wrap;
+      .IndexCard {
+        max-width: 40%;
+        padding: 20px 0;
+      }
+    }
+  }
+
+  .notice {
+    flex-wrap: wrap;
+    text-align: center;
+    ul {
+      width: 80%;
+      padding: 30px 0;
+    }
+    .bg {
+      width: 80%;
+    }
+  }
+
+  // ZONE區
+  .zones {
+    .zonebox {
+      .zone {
+        flex-wrap: wrap;
+        .left-side {
+          width: 80%;
+        }
+        .right-side {
+          width: 80%;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
+  // Home區
+  .news {
+    .cards {
+      flex-wrap: wrap;
+      .IndexCard {
+        max-width: 80%;
+        padding: 20px 0;
+      }
+    }
+  }
+
+  .notice {
+    flex-wrap: wrap;
+    text-align: center;
+    ul {
+      width: 80%;
+      padding: 30px 0;
+    }
+    .bg {
+      width: 80%;
+    }
+  }
+
+  // ZONE區
+  .zones {
+    .zonebox {
+      .zone {
+        flex-wrap: wrap;
+        .left-side {
+          width: 80%;
+        }
+        .right-side {
+          width: 80%;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 576px) {
+  // Home區
+  .news {
+    .cards {
+      flex-wrap: wrap;
+      .IndexCard {
+        max-width: 80%;
+        padding: 20px 0;
+      }
+    }
+  }
+
+  .notice {
+    flex-wrap: wrap;
+    text-align: center;
+    ul {
+      width: 80%;
+      padding: 30px 0;
+    }
+    .bg {
+      width: 80%;
+    }
+
+    // ZONE區
+    .zones {
+      .zonebox {
+        .zone {
+          flex-wrap: wrap;
+          .left-side {
+            width: 100%;
+          }
+          .right-side {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
 }

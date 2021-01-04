@@ -5,10 +5,9 @@
         <img src="../../assets/img/logo.png" alt="" />
       </router-link>
     </div>
-    <div id="right_header">
+    <div id="right_header" v-if="rwdW > 768">
       <ul>
         <router-link tag="li" to="/zoo/zone">館區介紹</router-link>
-        <!-- <router-link to="/animalData">動物影音</router-link> -->
         <router-link tag="li" to="/zoo/animalData/mammals/A0001"
           >動物百科</router-link
         >
@@ -20,6 +19,23 @@
         </el-badge>
       </ul>
     </div>
+    <div class="mob_Header" v-else>
+      <!-- 移動端模式icon -->
+      <i
+        class="el-icon-s-unfold icon"
+        @click="isShowMobHeader = !isShowMobHeader"
+      ></i>
+    </div>
+    <ul class="menu" v-show="isShowMobHeader">
+      <router-link tag="li" to="/zoo/zone">館區介紹</router-link>
+      <router-link tag="li" to="/zoo/animalData/mammals/A0001"
+        >動物百科</router-link
+      >
+      <router-link tag="li" to="/zoo/onlineBuy">線上購票</router-link>
+      <router-link tag="li" to="/zoo/cart">
+        購物車
+      </router-link>
+    </ul>
   </div>
 </template>
 
@@ -32,33 +48,29 @@ export default {
   data() {
     return {
       localCart: [],
+      // width: this.w,
+      isShowMobHeader: false,
     };
   },
   computed: {
     ...mapState(["cartList"]),
-    ...mapGetters(["totalNum"]),
-    // totalNum() {
-    //   let total = 0;
-    //   // this.localCart.forEach((item) => {
-    //   //   console.log(item);
-    //   //   total += item.G_num;
-    //   //   console.log(total);
-    //   // });
-    //   // return total;
-    //   this.cartList.forEach((item) => {
-    //     total += item.G_num;
-    //   });
-    //   return total;
-    // },
+    ...mapGetters(["totalNum", "WIDTH"]),
+    // 計算瀏覽器寬高
+    rwdW() {
+      console.log(this.WIDTH);
+      return this.WIDTH;
+    },
   },
-  // created() {
-  //   this.localCart = JSON.parse(getLocal("cartList")) || [];
-  // },
+  mounted() {
+    this.width = this.w;
+    console.log(this.width);
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 #header {
+  position: relative;
   display: flex;
   justify-content: space-around;
   background-color: #203608;
@@ -85,6 +97,36 @@ export default {
           margin-top: 10px;
           margin-right: 40px;
         }
+      }
+    }
+  }
+
+  .mob_Header {
+    .icon {
+      font-size: 3rem;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+
+  .menu {
+    position: absolute;
+    top: 85px;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    li {
+      background-color: rgb(233, 175, 68);
+      font-size: 1.3rem;
+      font-weight: 700;
+      padding: 10px 0;
+      cursor: pointer;
+      text-align: center;
+      width: 100%;
+      &:nth-child(2n + 1) {
+        background-color: rgb(124, 147, 223);
       }
     }
   }
