@@ -113,7 +113,7 @@ export default {
   }
 
   .news {
-    padding: 9rem 7rem;
+    padding: 6rem 3rem;
     // margin: 2rem auto;
     position: relative;
     background-color: #5b994044;

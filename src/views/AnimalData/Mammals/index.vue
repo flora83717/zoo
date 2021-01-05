@@ -1,7 +1,8 @@
 <template>
   <div class="animalDetails">
     <div class="mammals">
-      <ul class="mammalData">
+      <ul class="mammalData" v-if="IsShowMenu">
+        <i class="el-icon-circle-close icon"></i>
         <router-link
           tag="li"
           :to="'/zoo/animalData/mammals/' + item.A_Id"
@@ -13,7 +14,7 @@
           <h5 class="name">{{ item.A_Name_Ch }}</h5>
         </router-link>
       </ul>
-      <AnimalDetail />
+      <AnimalDetail @menuShow="showMenu" v-else />
     </div>
   </div>
 </template>
@@ -25,6 +26,7 @@ export default {
   data() {
     return {
       mammalData: [],
+      IsShowMenu: false,
     };
   },
   created() {
@@ -38,21 +40,33 @@ export default {
   components: {
     AnimalDetail,
   },
+  methods: {
+    showMenu() {
+      this.IsShowMenu = true;
+    },
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 .mammals {
   display: flex;
-  flex-basis: 300px;
-   width: 100%;
+  width: 100%;
+
   .mammalData {
-   max-width: 320px;
+    position: relative;
+    .icon {
+      cursor: pointer;
+      font-size: 60px;
+      position: absolute;
+      right: 0;
+      top: 1px;
+      color: rgb(167, 54, 54);
+    }
     padding: 15px 5px;
     display: flex;
     flex-direction: column;
     max-height: 100vh;
-    // max-width: 20vw;
     overflow: auto;
     .mammalCard {
       padding: 10px 0 5px 20px;

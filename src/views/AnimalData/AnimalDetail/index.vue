@@ -35,6 +35,9 @@
         </div>
       </ul>
     </div>
+    <div class="menuBTN" @click="showMenu">
+      <img :src="require('../../../assets/img/menu.png')" alt="" />
+    </div>
   </div>
 </template>
 
@@ -81,6 +84,11 @@ export default {
       this.animalInfo = res[0];
       console.log(this.animalInfo);
     });
+  },
+  methods: {
+    showMenu() {
+      this.$emit("menuShow");
+    },
   },
 };
 </script>
@@ -141,6 +149,15 @@ export default {
           line-height: 30px;
         }
       }
+    }
+  }
+  .menuBTN {
+    cursor: pointer;
+    right: 10px;
+    bottom: -200px;
+    position: absolute;
+    img {
+      width: 130px;
     }
   }
 }
