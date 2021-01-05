@@ -99,6 +99,7 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 70%;
   .leftImg {
     margin-bottom: 30px;
     display: flex;
