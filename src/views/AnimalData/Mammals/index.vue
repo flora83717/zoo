@@ -14,22 +14,26 @@
           {{ item.A_Name_Ch }}
         </router-link>
       </ul>
-
-      <ul class="mammalData" v-if="IsShowMenu">
-        <i class="el-icon-circle-close icon" @click="showDetail"></i>
-        <router-link
-          tag="li"
-          :to="'/zoo/animalData/mammals/' + item.A_Id"
-          v-for="item in mammalData"
-          :key="item.A_Id"
-          class="mammalCard"
-        >
-          <!-- <img :src="item.A_Pic01_URL" alt="" /> -->
-          <!-- <h5 class="name">{{ item.A_Name_Ch }}</h5> -->
-          {{ item.A_Name_Ch }}
-        </router-link>
-      </ul>
-      <AnimalDetail @menuShow="showMenu" v-else />
+      <!-- 響應式menu -->
+      <transition name="rwdMenu">
+        <ul class="mammalData" v-if="IsShowMenu">
+          <i class="el-icon-circle-close icon" @click="showDetail"></i>
+          <router-link
+            tag="li"
+            :to="'/zoo/animalData/mammals/' + item.A_Id"
+            v-for="item in mammalData"
+            :key="item.A_Id"
+            class="mammalCard"
+          >
+            <!-- <img :src="item.A_Pic01_URL" alt="" /> -->
+            <!-- <h5 class="name">{{ item.A_Name_Ch }}</h5> -->
+            {{ item.A_Name_Ch }}
+          </router-link>
+        </ul>
+        <AnimalDetail @menuShow="showMenu" v-else />
+      </transition>
+      <!-- <transition name="rwdDetail"> -->
+      <!-- </transition> -->
     </div>
   </div>
 </template>
@@ -86,13 +90,13 @@ export default {
   .pcMammalData {
     overflow: auto;
     height: 70vh;
-     .mammalCard {
+    .mammalCard {
       padding: 10px 0 5px 20px;
       background-color: #fcf8ec;
       width: 100%;
       font-size: 20px;
-        font-weight: 600;
-        width: 210px;
+      font-weight: 600;
+      width: 210px;
       &:hover {
         cursor: pointer;
         color: darkred;
@@ -103,8 +107,6 @@ export default {
       &:nth-child(2n) {
         background-color: #999b84;
       }
-
-      
     }
   }
   .mammalData {
@@ -122,7 +124,6 @@ export default {
       top: 1px;
       color: rgb(167, 54, 54);
     }
-    
 
     .mammalCard {
       padding: 10px 0 5px 20px;

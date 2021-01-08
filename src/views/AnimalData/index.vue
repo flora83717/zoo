@@ -1,5 +1,5 @@
 <template>
-  <!-- 動物資料總匯 -->
+  <!-- 動物資料總匯-類別選擇 -->
   <div class="animalClass">
     <ul class="class">
       <router-link

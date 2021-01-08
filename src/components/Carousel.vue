@@ -7,7 +7,7 @@
         backgroundImage: `url(${require(`../assets/img/animals/${item}.jpg`)})`,
       }"
     >
-      <h3>{{ item }}</h3>
+      <!-- <h3>{{ item }}</h3> -->
     </el-carousel-item>
   </el-carousel>
 </template>
@@ -24,20 +24,23 @@ export default {
 </script>
 
 <style>
-
 .el-carousel__container {
-    height: 830px!important;
-    max-width: 1380px;
-    margin: 0 auto;
+  height: 869px !important;
+  /* max-width: 1380px; */
+  margin: 0 auto;
+  padding-top: 62.71%;
 }
 
-.el-carousel__item h3 {
+/* .el-carousel__item h3 {
   color: #475669;
   font-size: 18px;
   opacity: 0.75;
   line-height: 300px;
   margin: 0;
-  
+} */
+
+.el-carousel__item {
+  background-size: cover;
 }
 
 .el-carousel__indicators--outside {

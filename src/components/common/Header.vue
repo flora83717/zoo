@@ -19,23 +19,25 @@
         </el-badge>
       </ul>
     </div>
+    <!-- 移動端頭部 -->
     <div class="mob_Header" v-else>
-      <!-- 移動端模式icon -->
       <i
         class="el-icon-s-unfold icon"
         @click="isShowMobHeader = !isShowMobHeader"
       ></i>
     </div>
-    <ul class="menu" v-show="isShowMobHeader">
-      <router-link tag="li" to="/zoo/zone">館區介紹</router-link>
-      <router-link tag="li" to="/zoo/animalData/mammals/A0001"
-        >動物百科</router-link
-      >
-      <router-link tag="li" to="/zoo/onlineBuy">線上購票</router-link>
-      <router-link tag="li" to="/zoo/cart">
-        購物車
-      </router-link>
-    </ul>
+    <transition name="mobMenu">
+      <ul class="menu" v-show="isShowMobHeader">
+        <router-link tag="li" to="/zoo/zone">館區介紹</router-link>
+        <router-link tag="li" to="/zoo/animalData/mammals/A0001"
+          >動物百科</router-link
+        >
+        <router-link tag="li" to="/zoo/onlineBuy">線上購票</router-link>
+        <router-link tag="li" to="/zoo/cart">
+          購物車
+        </router-link>
+      </ul>
+    </transition>
   </div>
 </template>
 
@@ -69,6 +71,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.mobMenu-enter-active,
+.mobMenu-leave-active {
+  transition: opacity 0.5s;
+}
+
+.mobMenu-enter,
+.mobMenu-leave-to {
+  opacity: 0;
+}
+
 #header {
   position: relative;
   display: flex;
@@ -102,6 +114,8 @@ export default {
   }
 
   .mob_Header {
+    display: flex;
+    align-items: center;
     .icon {
       font-size: 3rem;
       color: #fff;
