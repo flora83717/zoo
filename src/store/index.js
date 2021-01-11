@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Vuex from "vuex";
-import { setLocal, getLocal } from "@/plugins/local";
+import { setLocal, getLocal, removeLocal } from "@/plugins/local";
 // import { DB_cartList } from "@/db/cartList";
 Vue.use(Vuex);
 
@@ -71,6 +71,11 @@ export default new Vuex.Store({
       if (state.cartList.length === 0) {
         state.isCartNull = true;
       }
+    },
+
+    clearCart(state) {
+      state.cartList = [];
+      removeLocal("cartList");
     },
   },
   getters: {

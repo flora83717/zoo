@@ -60,7 +60,7 @@
 </template>
 
 <script>
-import { mapGetters, mapState } from "vuex";
+import { mapGetters, mapState, mapMutations } from "vuex";
 import CartItem from "@/components/CartItem";
 import { getLocal, removeLocal } from "@/plugins/local";
 // import { DB_cartList } from "@/db/cartList";
@@ -83,9 +83,11 @@ export default {
     CartItem,
   },
   methods: {
+    ...mapMutations(["clearCart"]),
     pay() {
-      removeLocal("cartList");
-      this.reload();
+      // removeLocal("cartList");
+      // this.reload();
+      this.clearCart();
       console.log("結帳完成");
     },
   },
