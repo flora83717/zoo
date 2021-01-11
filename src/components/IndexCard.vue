@@ -2,7 +2,8 @@
   <router-link :to="`/zoo/news/${id}`" tag="div" class="IndexCard">
     <img :src="img" alt="img" />
     <div class="cardbody">
-      {{ text }}
+      <!-- {{ text }} -->
+      {{ title }}
     </div>
     <div class="cardfoot">
       <span>{{ year }}</span>

@@ -36,57 +36,66 @@
       width: 45%;
     }
   }
-
-  
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  // Home區
-  .news {
-    .cards {
-      flex-wrap: wrap;
-      .IndexCard {
-        max-width: 40%;
-        padding: 20px 0;
-      }
-    }
-  }
-
-  .notice {
-    flex-wrap: wrap;
-    text-align: center;
-    ul {
-      width: 80%;
-      padding: 30px 0;
-    }
-    .bg {
-      width: 80%;
-    }
-  }
-
-  // ZONE區
-  .zones {
-    .zonebox {
-      .zone {
+  #zoo {
+    // Home區
+    .news {
+      .cards {
         flex-wrap: wrap;
-        .left-side {
-          width: 80% !important;
+        .IndexCard {
+          max-width: 40%;
+          padding: 20px 0;
         }
-        .right-side {
-          width: 80% !important;
+      }
+    }
+
+    .notice {
+      flex-wrap: wrap;
+      text-align: center;
+      ul {
+        width: 80%;
+        padding: 30px 0;
+      }
+      .bg {
+        width: 80%;
+      }
+    }
+
+    // ZONE區
+    .zones {
+      .zonebox {
+        .zone {
+          flex-wrap: wrap;
+          .left-side {
+            width: 80% !important;
+          }
+          .right-side {
+            width: 80% !important;
+          }
+        }
+      }
+    }
+
+    // onlineBuy
+    .cards {
+      .card {
+        width: 45%;
+      }
+    }
+
+    .cartLsit {
+      .notBuy {
+        font-size: 1.5rem;
+        .noDataTitle {
+          .gotoShopping {
+            font-size: 1.7rem;
+          }
         }
       }
     }
   }
-
-  // onlineBuy
-  .cards {
-    .card {
-      width: 45%;
-    }
-  }
-
-
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -166,6 +175,14 @@
           }
         }
       }
+      .notBuy {
+        font-size: 1.8rem;
+        .noDataTitle {
+          .gotoShopping {
+            font-size: 2rem;
+          }
+        }
+      }
     }
 
     //animaldata
@@ -186,7 +203,7 @@
           display: block;
           width: 100%;
           .mammalData {
-            max-height: 72vh;;
+            max-height: 72vh;
             padding: 0;
             .mammalCard {
               li {
@@ -304,6 +321,14 @@
           justify-content: center;
           .fee {
             margin: 25px 0 50px;
+          }
+        }
+      }
+      .notBuy {
+        font-size: 1.4rem;
+        .noDataTitle {
+          .gotoShopping {
+            font-size: 1.6rem;
           }
         }
       }

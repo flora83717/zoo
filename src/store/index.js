@@ -75,6 +75,7 @@ export default new Vuex.Store({
 
     clearCart(state) {
       state.cartList = [];
+      state.isCartNull = true;
       removeLocal("cartList");
     },
   },

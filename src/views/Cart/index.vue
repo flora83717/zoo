@@ -49,6 +49,7 @@
       </div>
     </div>
     <div class="notBuy" v-show="isCartNull">
+      <div class="oops"></div>
       <div class="noDataTitle">
         尚未選購商品，引導去
         <router-link tag="span" to="/zoo/onlineBuy" class="gotoShopping"
@@ -85,10 +86,8 @@ export default {
   methods: {
     ...mapMutations(["clearCart"]),
     pay() {
-      // removeLocal("cartList");
-      // this.reload();
-      this.clearCart();
       console.log("結帳完成");
+      this.clearCart();
     },
   },
 };
@@ -99,6 +98,7 @@ export default {
   margin: 0 auto;
   width: 80%;
   margin-top: 7rem;
+  min-height: 70vh;
 
   .cartLists {
     .list_title {
@@ -180,11 +180,24 @@ export default {
   }
 
   .notBuy {
-    font-size: 3rem;
-    .gotoShopping {
-      font-weight: 800;
-      cursor: pointer;
-      color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem;
+    .noDataTitle {
+      padding-top: 30px;
+      .gotoShopping {
+        font-weight: 800;
+        cursor: pointer;
+        color: brown;
+      }
+    }
+    .oops {
+      width: 80%;
+      height: 350px;
+      background-image: url(../../assets/img/oops3.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
     }
   }
 }
