@@ -35,19 +35,28 @@
         </div>
       </ul>
     </div>
-    <div class="menuBTN" @click="showMenu">
-      <img :src="require('../../../assets/img/menu.png')" alt="" />
+    <div class="menuBTN" @click="showMenu" >
+      <img :src="require('../../../assets/img/menu.png')" alt="menu" v-show=" !(rwdW > 991) " />
     </div>
   </div>
 </template>
 
 <script>
+import { mapGetters } from "vuex";
 export default {
   name: "AnimalDetail",
   data() {
     return {
       animalInfo: {},
     };
+  },
+   computed: {
+    ...mapGetters(["WIDTH"]),
+    // 計算瀏覽器寬高
+    rwdW() {
+      console.log(this.WIDTH);
+      return this.WIDTH;
+    },
   },
   watch: {
     $route(to, from) {

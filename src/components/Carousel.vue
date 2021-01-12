@@ -25,7 +25,7 @@ export default {
 
 <style>
 .el-carousel__container {
-  height: 869px !important;
+  /* height: 869px !important; */
   /* max-width: 1380px; */
   margin: 0 auto;
   padding-top: 62.71%;
@@ -40,7 +40,8 @@ export default {
 } */
 
 .el-carousel__item {
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .el-carousel__indicators--outside {

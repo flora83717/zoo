@@ -106,6 +106,7 @@ export default {
     }
   }
   .amphibiansData {
+    width: 100vw;
    position: relative;
     padding: 15px 5px;
     display: flex;
@@ -125,6 +126,7 @@ export default {
       padding: 10px 0 5px 20px;
       background-color: #fcf8ec;
       width: 100%;
+      text-align: center;
       &:hover {
         cursor: pointer;
         color: darkred;

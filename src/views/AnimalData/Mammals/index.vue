@@ -15,8 +15,8 @@
         </router-link>
       </ul>
       <!-- 響應式menu -->
-      <transition name="rwdMenu">
-        <ul class="mammalData" v-if="IsShowMenu">
+      <!-- <transition name="rwdMenu"> -->
+        <ul class="mammalData" v-if="IsShowMenu ">
           <i class="el-icon-circle-close icon" @click="showDetail"></i>
           <router-link
             tag="li"
@@ -31,7 +31,7 @@
           </router-link>
         </ul>
         <AnimalDetail @menuShow="showMenu" v-else />
-      </transition>
+      <!-- </transition> -->
       <!-- <transition name="rwdDetail"> -->
       <!-- </transition> -->
     </div>
@@ -115,6 +115,7 @@ export default {
     display: flex;
     flex-direction: column;
     max-height: 100vh;
+    width: 100vw;;
     overflow: auto;
     .icon {
       cursor: pointer;
@@ -129,6 +130,7 @@ export default {
       padding: 10px 0 5px 20px;
       background-color: #fcf8ec;
       width: 100%;
+      text-align: center;
       &:hover {
         cursor: pointer;
         color: darkred;

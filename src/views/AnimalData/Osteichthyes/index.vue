@@ -113,6 +113,7 @@ export default {
     display: flex;
     flex-direction: column;
     max-height: 100vh;
+      width: 100vw;;
     overflow: auto;
     .icon {
       cursor: pointer;
@@ -126,6 +127,7 @@ export default {
       padding: 10px 0 5px 20px;
       background-color: #fcf8ec;
       width: 100%;
+       text-align: center;
       &:hover {
         cursor: pointer;
         color: darkred;

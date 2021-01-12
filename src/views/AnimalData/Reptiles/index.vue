@@ -13,8 +13,9 @@
           <h5 class="name">{{ item.A_Name_Ch }}</h5>
         </router-link>
       </ul>
-
-      <ul class="reptilesData"  v-if="IsShowMenu">
+      <!-- 移動端menu -->
+      <ul class="reptilesData"  v-if="IsShowMenu || rwd < 991">
+        <i class="el-icon-circle-close icon" @click="showDetail"></i>
         <router-link
           tag="li"
           :to="'/zoo/animalData/reptiles/' + item.A_Id"
@@ -104,6 +105,7 @@ export default {
     }
   }
   .reptilesData {
+    width: 100vw;
        position: relative;
     padding: 15px 5px;
     display: flex;
@@ -119,6 +121,7 @@ export default {
       color: rgb(167, 54, 54);
     }
     .reptilesCard {
+      text-align: center;
       padding: 10px 0 5px 20px;
       background-color: #fcf8ec;
       width: 100%;
