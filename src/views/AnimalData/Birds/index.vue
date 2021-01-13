@@ -64,6 +64,14 @@ export default {
   components: {
     AnimalDetail,
   },
+   methods: {
+    showMenu() {
+      this.IsShowMenu = true;
+    },
+    showDetail() {
+      this.IsShowMenu = false;
+    },
+  },
   
 };
 </script>
@@ -103,6 +111,7 @@ export default {
     flex-direction: column;
     max-height: 100vh;
     overflow: auto;
+    width: 100vw;
      .icon {
       cursor: pointer;
       font-size: 60px;
@@ -116,6 +125,7 @@ export default {
       padding: 10px 0 5px 20px;
       background-color: #fcf8ec;
       width: 100%;
+      text-align: center;
       &:hover {
         cursor: pointer;
         color: darkred;
