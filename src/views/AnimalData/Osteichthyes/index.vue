@@ -1,22 +1,8 @@
 <template>
   <div class="animalDetails">
     <div class="osteichthyes">
-
-<!-- 電腦版menu -->
-      <ul class="pcMammalData" v-show="rwdW > 991">
-         <router-link
-          tag="li"
-          :to="'/zoo/animalData/osteichthyes/' + item.A_Id"
-          v-for="item in osteichthyesData"
-          :key="item.A_Id"
-          class="osteichthyesCard"
-        >
-          <h5 class="name">{{ item.A_Name_Ch }}</h5>
-        </router-link>
-      </ul>
-
-      <ul class="osteichthyesData" v-if="IsShowMenu">
-                <i class="el-icon-circle-close icon" @click="showDetail"></i>
+      <!-- 電腦版menu -->
+      <ul class="pcOsteichthyesData" v-show="rwdW > 991">
         <router-link
           tag="li"
           :to="'/zoo/animalData/osteichthyes/' + item.A_Id"
@@ -24,7 +10,22 @@
           :key="item.A_Id"
           class="osteichthyesCard"
         >
-          <h5 class="name">{{ item.A_Name_Ch }}</h5>
+          <!-- <h5 class="name">{{ item.A_Name_Ch }}</h5> -->
+          {{ item.A_Name_Ch }}
+        </router-link>
+      </ul>
+
+      <ul class="osteichthyesData" v-if="IsShowMenu">
+        <i class="el-icon-circle-close icon" @click="showDetail"></i>
+        <router-link
+          tag="li"
+          :to="'/zoo/animalData/osteichthyes/' + item.A_Id"
+          v-for="item in osteichthyesData"
+          :key="item.A_Id"
+          class="osteichthyesCard"
+        >
+          <!-- <h5 class="name">{{ item.A_Name_Ch }}</h5> -->
+          {{ item.A_Name_Ch }}
         </router-link>
       </ul>
       <AnimalDetail @menuShow="showMenu" v-else />
@@ -43,7 +44,7 @@ export default {
       IsShowMenu: false,
     };
   },
-   computed: {
+  computed: {
     ...mapGetters(["WIDTH"]),
     // 計算瀏覽器寬高
     rwdW() {
@@ -68,7 +69,7 @@ export default {
   components: {
     AnimalDetail,
   },
-   methods: {
+  methods: {
     showMenu() {
       this.IsShowMenu = true;
     },
@@ -82,38 +83,35 @@ export default {
 <style lang="scss" scoped>
 .osteichthyes {
   display: flex;
-      width: 100%;
-       .pcMammalData {
+  width: 100%;
+  .pcOsteichthyesData {
     overflow: auto;
-    height: 70vh;
-     .mammalCard {
-      padding: 10px 0 5px 20px;
+    height: 100vh;
+    width: 350px;
+    .osteichthyesCard {
+      padding: 20px 0 10px 30px;
       background-color: #fcf8ec;
       width: 100%;
-      font-size: 20px;
-        font-weight: 600;
-        width: 210px;
+      font-size: 25px;
+      font-weight: 600;
       &:hover {
         cursor: pointer;
         color: darkred;
-        font-size: 20px;
         font-weight: 900;
       }
 
       &:nth-child(2n) {
         background-color: #999b84;
       }
-
-      
     }
   }
   .osteichthyesData {
-     position: relative;
+    position: relative;
     padding: 15px 5px;
     display: flex;
     flex-direction: column;
     max-height: 100vh;
-      width: 100vw;;
+    width: 100vw;
     overflow: auto;
     .icon {
       cursor: pointer;
@@ -127,7 +125,7 @@ export default {
       padding: 10px 0 5px 20px;
       background-color: #fcf8ec;
       width: 100%;
-       text-align: center;
+      text-align: center;
       &:hover {
         cursor: pointer;
         color: darkred;
@@ -138,12 +136,17 @@ export default {
       &:nth-child(2n) {
         background-color: #999b84;
       }
-    
+
       .name {
         font-size: 1.2rem;
         font-weight: 600;
       }
     }
+  }
+
+  .router-link-active {
+    color: #000;
+    background-color: #ac4b58c0 !important;
   }
 }
 </style>

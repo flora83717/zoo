@@ -1,20 +1,21 @@
 <template>
   <div class="animalDetails">
     <div class="reptiles">
-        <!-- 電腦版menu -->
-      <ul class="pcMammalData" v-show="rwdW > 991">
-          <router-link
+      <!-- 電腦版menu -->
+      <ul class="pcReptilesData" v-show="rwdW > 991">
+        <router-link
           tag="li"
           :to="'/zoo/animalData/reptiles/' + item.A_Id"
           v-for="item in reptilesData"
           :key="item.A_Id"
           class="reptilesCard"
         >
-          <h5 class="name">{{ item.A_Name_Ch }}</h5>
+          <!-- <h5 class="name">{{ item.A_Name_Ch }}</h5> -->
+          {{ item.A_Name_Ch }}
         </router-link>
       </ul>
       <!-- 移動端menu -->
-      <ul class="reptilesData"  v-if="IsShowMenu || rwd < 991">
+      <ul class="reptilesData" v-if="IsShowMenu || rwd < 991">
         <i class="el-icon-circle-close icon" @click="showDetail"></i>
         <router-link
           tag="li"
@@ -23,7 +24,8 @@
           :key="item.A_Id"
           class="reptilesCard"
         >
-          <h5 class="name">{{ item.A_Name_Ch }}</h5>
+          <!-- <h5 class="name">{{ item.A_Name_Ch }}</h5> -->
+          {{ item.A_Name_Ch }}
         </router-link>
       </ul>
       <AnimalDetail @menuShow="showMenu" v-else />
@@ -42,7 +44,7 @@ export default {
       IsShowMenu: false,
     };
   },
-   computed: {
+  computed: {
     ...mapGetters(["WIDTH"]),
     // 計算瀏覽器寬高
     rwdW() {
@@ -65,7 +67,7 @@ export default {
   components: {
     AnimalDetail,
   },
-   methods: {
+  methods: {
     showMenu() {
       this.IsShowMenu = true;
     },
@@ -80,33 +82,30 @@ export default {
 .reptiles {
   display: flex;
   width: 100%;
-   .pcMammalData {
+  .pcReptilesData {
     overflow: auto;
-    height: 70vh;
-     .mammalCard {
-      padding: 10px 0 5px 20px;
+    height: 100vh;
+    width: 350px;
+    .reptilesCard {
+      padding: 20px 0 10px 30px;
       background-color: #fcf8ec;
       width: 100%;
-      font-size: 20px;
-        font-weight: 600;
-        width: 210px;
+      font-size: 25px;
+      font-weight: 600;
       &:hover {
         cursor: pointer;
         color: darkred;
-        font-size: 20px;
         font-weight: 900;
       }
 
       &:nth-child(2n) {
         background-color: #999b84;
       }
-
-      
     }
   }
   .reptilesData {
     width: 100vw;
-       position: relative;
+    position: relative;
     padding: 15px 5px;
     display: flex;
     flex-direction: column;
@@ -135,12 +134,16 @@ export default {
       &:nth-child(2n) {
         background-color: #999b84;
       }
-     
+
       .name {
         font-size: 1.2rem;
         font-weight: 600;
       }
     }
+  }
+  .router-link-active {
+    color: #000;
+    background-color: #ac4b58c0 !important;
   }
 }
 </style>

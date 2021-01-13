@@ -35,8 +35,12 @@
         </div>
       </ul>
     </div>
-    <div class="menuBTN" @click="showMenu" >
-      <img :src="require('../../../assets/img/menu.png')" alt="menu" v-show=" !(rwdW > 991) " />
+    <div class="menuBTN" @click="showMenu">
+      <img
+        :src="require('../../../assets/img/menu.png')"
+        alt="menu"
+        v-show="!(rwdW > 991)"
+      />
     </div>
   </div>
 </template>
@@ -50,7 +54,7 @@ export default {
       animalInfo: {},
     };
   },
-   computed: {
+  computed: {
     ...mapGetters(["WIDTH"]),
     // 計算瀏覽器寬高
     rwdW() {
@@ -108,25 +112,29 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 70%;
+  width: 100%;
   .leftImg {
+    width: 700px;
+    height: auto;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
     img {
-      width: 50%;
+      width: 100%;
       border-radius: 20px;
     }
   }
   .rightData {
-    width: 85%;
+    // width: 80%;
     ul {
+      width: 100%;
       display: flex;
       flex-direction: column;
       // flex-wrap: wrap;
       .shortInfo {
         height: 200px;
         display: flex;
+        align-items: flex-start;
         flex-direction: column;
         flex-wrap: wrap;
         span {
@@ -134,10 +142,11 @@ export default {
           color: #682c0e;
           display: inline-block;
           font-weight: 900;
-          font-size: 1.2rem;
+          font-size: 1.3rem;
           margin: 20px 0;
         }
         li {
+          font-size: 1.2rem;
           width: 220px;
           padding: 0 0 0 10px;
           line-height: 25px;
@@ -145,17 +154,22 @@ export default {
       }
 
       .longInfo {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        position: relative;
         span {
-          width: 180px;
+          // width: 180px;
           color: #682c0e;
           display: inline-block;
           font-weight: 900;
-          font-size: 1.2rem;
+          font-size: 1.3rem;
           margin: 20px 0;
+          // width: 80%;
         }
         li {
-          width: 80%;
-          padding: 0 0 0 10px;
+          font-size: 1.2rem;
+          // width: 80%;
           line-height: 30px;
         }
       }
@@ -164,7 +178,7 @@ export default {
   .menuBTN {
     cursor: pointer;
     right: 10px;
-    bottom: -200px;
+    bottom: 25px;
     position: absolute;
     img {
       width: 130px;

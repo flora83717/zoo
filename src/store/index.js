@@ -72,8 +72,9 @@ export default new Vuex.Store({
         state.isCartNull = true;
       }
     },
-
+    // 清除購物車
     clearCart(state) {
+      console.log(123);
       state.cartList = [];
       state.isCartNull = true;
       removeLocal("cartList");

@@ -86,8 +86,9 @@ export default {
   methods: {
     ...mapMutations(["clearCart"]),
     pay() {
-      console.log("結帳完成");
+      console.log(456);
       this.clearCart();
+      alert("結帳完成");
     },
   },
 };

@@ -69,20 +69,16 @@ export default {
 <style lang="scss" scoped>
 .animalClass {
   margin: 0 auto;
-  width: 1380px;
-  max-width: 1380px;
   .class {
-    font-size: 1.5rem;
     font-weight: bold;
     display: flex;
-    margin-top: 3rem;
     width: 70%;
     height: 40px;
-    padding: 3rem 0;
+    padding: 4rem;
     border-bottom: 5px double #000;
     li {
       padding: 0 2rem;
-
+      font-size: 2.1rem;
       &:hover {
         cursor: pointer;
         color: #c51e01dc;
@@ -93,6 +89,10 @@ export default {
 
   .animalDetails {
     margin-top: 70px;
+  }
+
+  .router-link-active {
+    color: brown;
   }
 }
 </style>
