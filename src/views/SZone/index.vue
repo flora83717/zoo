@@ -1,7 +1,7 @@
 <template>
   <div id="szone">
-    <img :src="szone.E_Pic_URL" alt="pic" />
     <h1 class="title">{{ szone.E_Name }}</h1>
+    <img :src="szone.E_Pic_URL" alt="pic" />
     <div class="info">
       {{ szone.E_Info }}
     </div>
@@ -40,7 +40,10 @@ export default {
   margin-top: 7rem;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  height: 700px;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
   img {
     // width: 100%;
     background-size: 400px;
@@ -48,7 +51,7 @@ export default {
     border-radius: 50%;
   }
   .title {
-    width: 70%;
+    // width: 70%;
     text-align: left;
     padding: 0 10px;
     font-size: 2.5rem;
@@ -56,7 +59,6 @@ export default {
   }
   .info {
     width: 70%;
-    // height: 50px;
     padding: 20px 10px;
     font-size: 1.5rem;
     line-height: 35px;

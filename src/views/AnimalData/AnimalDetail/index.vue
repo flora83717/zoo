@@ -125,7 +125,7 @@ export default {
     }
   }
   .rightData {
-    // width: 80%;
+    width: 80%;
     ul {
       width: 100%;
       display: flex;

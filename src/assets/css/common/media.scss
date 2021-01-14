@@ -133,6 +133,7 @@
 @media screen and (min-width: 576px) and (max-width: 768px) {
   #zoo {
     // Home區
+
     .news {
       .cards {
         flex-wrap: wrap;
@@ -167,6 +168,12 @@
             width: 80% !important;
           }
         }
+      }
+    }
+    // SZONE區
+    .szone {
+      img {
+        height: 322px;
       }
     }
 
@@ -280,12 +287,21 @@
       width: 100vw;
       #zoo {
         // Home區
-        .news {
-          .cards {
-            flex-wrap: wrap;
-            .IndexCard {
-              max-width: 80%;
-              padding: 20px 0;
+        .home {
+          .zoneIntroduce {
+            .notice {
+              .bg {
+                height: 300px;
+              }
+            }
+          }
+          .news {
+            .cards {
+              flex-wrap: wrap;
+              .IndexCard {
+                max-width: 80%;
+                padding: 20px 0;
+              }
             }
           }
         }
@@ -315,6 +331,55 @@
               }
             }
           }
+        }
+
+        //zone區
+        .zones {
+          h1 {
+            margin: 2rem;
+          }
+
+          .zonebox {
+            .zone {
+              padding: 0;
+              margin: 10px 0;
+              width: 100%;
+              flex-direction: column;
+
+              .left-side {
+                left: 0;
+                .zoneName {
+                  text-align: center;
+                  font-size: 1.7rem;
+                }
+              }
+
+              .right-side {
+                width: 100%;
+                margin: 0;
+                &:nth-child(2) {
+                  left: 0;
+                }
+                li {
+                  font-size: 1.3rem;
+                }
+              }
+
+              &:nth-child(2) {
+                .left-side {
+                  align-items: center;
+                  // .zoneName {
+                  //   text-align: center;
+                  // }
+                }
+              }
+            }
+          }
+        }
+
+        // szone區
+        .szone {
+          margin-top: 10rem;
         }
 
         // onlineBuy
